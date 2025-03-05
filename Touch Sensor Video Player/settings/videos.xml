@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<videos>
+    <sensor pin="17">/home/pi/Videos/video1.mp4</sensor>
+    <sensor pin="27">/home/pi/Videos/video2.mp4</sensor>
+    <!--<sensor pin="22">/home/pi/videos/video3.mp4</sensor> -->
+    <!-- <sensor pin="23">/home/pi/videos/video4.mp4</sensor> -->
+    <screensaver>/home/pi/Videos/screensaver.mp4</screensaver>
+</videos>

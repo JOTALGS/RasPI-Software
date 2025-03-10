@@ -7,6 +7,7 @@ import serial
 import logging
 import threading
 import tkinter as tk
+from itertools import cycle
 from parse_xml import parse_xml
 
 # Set up logging
@@ -130,7 +131,20 @@ class VideoPlayer:
             def handle_q(*args):
                 logging.info("Quit key pressed")
                 self.cleanup()
-            
+                
+            # Set up simple key binding for quit
+            @self.player.on_key_press('n')
+            def handle_n(*args):
+                logging.info("Next video key pressed")
+                target_key = self._current_video
+                iterator = cycle(self.video_paths.keys())
+                for key in iterator:
+                    if key == target_key:
+                        break
+                next_key = next(iterator)
+                logging.info(f"Next key: {next_key} --> {self.video_paths}")
+                self.play_video(next_key)
+
             @self.player.on_key_press('ESC')
             def handle_esc(*args):
                 logging.info("ESC key pressed")

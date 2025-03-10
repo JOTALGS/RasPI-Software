@@ -1,0 +1,80 @@
+2025-03-06 22:29:45,198 - INFO - Starting video player application
+2025-03-06 22:29:45,208 - INFO - Starting setup...
+2025-03-06 22:29:45,209 - DEBUG - Parsing XML configuration...
+2025-03-06 22:29:45,238 - DEBUG - Found 5 video paths
+2025-03-06 22:29:45,238 - DEBUG - Initializing MPV player...
+2025-03-06 22:29:45,511 - INFO - Setup completed successfully
+2025-03-06 22:29:45,511 - INFO - Listening for RFID scans on /dev/ttyUSB0...
+2025-03-06 22:29:45,512 - INFO - Starting RFID monitoring thread
+2025-03-06 22:29:51,378 - INFO - RFID Card Scanned: 0D0093FAEB8F
+2025-03-06 22:29:51,379 - INFO - Changing video to 0D0093FAEB8F
+2025-03-06 22:29:51,379 - INFO - Attempting to play video index 0D0093FAEB8F
+2025-03-06 22:29:51,379 - INFO - Playing video: /home/pi/Videos/video2.mp4
+2025-03-06 22:29:51,380 - DEBUG - Video playback started
+2025-03-06 22:29:51,380 - DEBUG - Video change took 0.0012104511260986328 seconds
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+2025-03-06 22:29:52,482 - INFO - RFID Card Scanned: 
+2025-03-06 22:29:52,482 - INFO - Changing video to 
+2025-03-06 22:29:52,482 - INFO - Attempting to play video index 
+2025-03-06 22:29:52,482 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '1']
+2025-03-06 22:29:52,482 - DEBUG - Video change took 0.0002620220184326172 seconds
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+2025-03-06 22:29:55,297 - INFO - ESC key pressed
+2025-03-06 22:29:55,298 - INFO - Starting cleanup...
+2025-03-06 22:29:55,400 - ERROR - Error during player termination: terminate() should not be called from event thread (e.g. from a callback function). If you want to terminate mpv from here, please call quit() instead, then sync the main thread against the event thread using e.g. wait_for_shutdown(), then terminate() from the main thread. This call has been transformed into a call to quit().
+s
+2025-03-06 22:25:03,528 - INFO - ESC key pressed
+2025-03-06 22:25:03,529 - INFO - Starting cleanup...
+2025-03-06 22:25:03,630 - ERROR - Error during player termination: terminate() should not be called from event thread (e.g. from a callback function). If you want to terminate mpv from here, please call quit() instead, then sync the main thread against the event thread using e.g. wait_for_shutdown(), then terminate() from the main thread. This call has been transformed into a call to quit().
+e mpv from here, please call quit() instead, then sync the main thread against the event thread using e.g. wait_for_shutdown(), then terminate() from the main thread. This call has been transformed into a call to quit().
+sorVideoPlayer/video_player_obj.py", line 212, in signal_handler
+    self.cleanup()
+  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/video_player_obj.py", line 207, in cleanup
+    sys.exit(0)
+SystemExit: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/main.py", line 43, in <module>
+    main()
+  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/main.py", line 39, in main
+    background.close()
+    ^^^^^^^^^^
+NameError: name 'background' is not defined
+    sys.exit(0)
+SystemExit: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/main.py", line 43, in <module>
+    main()
+  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/main.py", line 39, in main
+    background.close()
+    ^^^^^^^^^^
+NameError: name 'background' is not defined
+25-03-06 19:48:04,390 - INFO - Player terminated successfully
+Traceback (most recent call last):
+  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/main.py", line 30, in main
+    time.sleep(0.1)
+  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/video_player_obj.py", line 212, in signal_handler
+    self.cleanup()
+  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/video_player_obj.py", line 207, in cleanup
+    sys.exit(0)
+SystemExit: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/main.py", line 43, in <module>
+    main()
+  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/main.py", line 39, in main
+    background.close()
+    ^^^^^^^^^^
+NameError: name 'background' is not defined

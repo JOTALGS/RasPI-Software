@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<videos>
+    <card id="0D00945F23E5">/home/pi/Videos/video4.mp4</card>
+    <card id="3A006C13BDF8">/home/pi/Videos/video3.mp4</card>
+    <card id="0D0093FAEB8F">/home/pi/Videos/video2.mp4</card>
+    <card id="3A006C1ED098">/home/pi/Videos/video1.mp4</card>
+    <screensaver>/home/pi/Videos/screensaver.mp4</screensaver>
+</videos>

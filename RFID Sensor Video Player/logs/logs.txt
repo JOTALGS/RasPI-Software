@@ -1,0 +1,29 @@
+pi@raspberrypi:~/Desktop/Scripts $ export DISPLAY=:0
+pi@raspberrypi:~/Desktop/Scripts $ python main.py 
+Statup complete. Beginning...
+Running main loop
+------> <vlc.MediaPlayer object at 0x7f85848490>
+------> <vlc.MediaPlayer object at 0x7f85848490>
+[0000007f480d7bc0] wl_xdg_shell window: <<< WL XDG: 1920x1080 fs 1 standalone 0
+[0000007f68002440] xcb vout display error: window not available
+[0000007f48081d00] main video output error: video output creation failed
+[0000007f4801f980] main decoder error: failed to create video output
+[0000007f680263d0] wl_xdg_shell window: <<< WL XDG: 1920x1080 fs 1 standalone 0
+[0000007f300013f0] xcb vout display error: window not available
+[0000007f680138b0] main video output error: video output creation failed
+[0000007f4801f980] main decoder error: failed to create video output
+[0000007f68026570] wl_xdg_shell window: <<< WL XDG: 1920x1080 fs 1 standalone 0
+[0000007f300013f0] xcb vout display error: window not available
+[0000007f6803b450] main video output error: video output creation failed
+[0000007f4801f980] main decoder error: failed to create video output
+[0000007f680a10d0] wl_xdg_shell window: <<< WL XDG: 1920x1080 fs 1 standalone 0
+[0000007f300013f0] xcb vout display error: window not available
+[0000007f6803b450] main video output error: video output creation failed
+[0000007f4801f980] main decoder error: failed to create video output
+[0000007f6804b1f0] wl_xdg_shell window: <<< WL XDG: 1920x1080 fs 1 standalone 0
+[0000007f300013f0] xcb vout display error: window not available
+[0000007f6803b450] main video output error: video output creation failed
+[0000007f4801f980] main decoder error: failed to create video output
+[0000007f680818b0] wl_xdg_shell window: <<< WL XDG: 1920x1080 fs 1 standalone 0
+[0000007f300013f0] xcb vout display error: window not available
+[0000007f6803b450] main video output error: video 

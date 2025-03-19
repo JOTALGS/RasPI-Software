@@ -4,5 +4,7 @@
     <card id="3A006C13BDF8">/home/pi/Videos/video3.mp4</card>
     <card id="0D0093FAEB8F">/home/pi/Videos/video2.mp4</card>
     <card id="3A006C1ED098">/home/pi/Videos/video1.mp4</card>
-    <screensaver>/home/pi/Videos/screensaver.mp4</screensaver>
+    <card id="3A005C8604E4">/home/pi/Videos/video5.mp4</card>
+    <card id="3A005C940DFF">/home/pi/Videos/video3.mp4</card>
+    <screensaver>/home/pi/Videos/Salvapantallas.mp4</screensaver>
 </videos>

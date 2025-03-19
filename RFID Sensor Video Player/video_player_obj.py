@@ -9,6 +9,7 @@ import threading
 import tkinter as tk
 from itertools import cycle
 from parse_xml import parse_xml
+import subprocess
 
 # Set up logging
 logging.basicConfig(
@@ -65,7 +66,7 @@ class VideoSensorController:
         rfid_thread.start()
 
         # Start initial video
-        #self.player.play_video(self.current_video)
+        self.player.play_video(self.current_video)
         
     def cleanup(self):
         """Clean up resources"""
@@ -89,7 +90,8 @@ class VideoPlayer:
         try:
             event_str = str(event)
             if "reason': b'eof'" in event_str:
-                #self.play_video(1)
+                self.play_video(1)
+                logging.debug(f"##### TIMESTAMP: video triggered by eof excecuted {time.time()}")
                 pass
         except Exception as e:
             logging.error(f"Error processing end file: {str(e)}")
@@ -116,15 +118,17 @@ class VideoPlayer:
                 input_default_bindings=True,
                 input_vo_keyboard=True,
                 ontop=True,
-                keepaspect=True,  # Maintain video aspect ratio
+                keepaspect=True,
                 screen=0,
             )
             
             # Set up end-file event callback
             @self.player.event_callback('end-file')
             def handle_end_file(event):
+                logging.debug(f"##### TIMESTAMP: eof event catched {time.time()}")
                 # Process in a separate thread to minimize delay
                 threading.Thread(target=self._process_end_file, args=(event,)).start()
+                #self._process_end_file(event)
             
             # Set up simple key binding for quit
             @self.player.on_key_press('q')
@@ -164,6 +168,7 @@ class VideoPlayer:
     def play_video(self, video_index):
         """Play a specific video by index - non-blocking"""
         start_time = time.time()
+        subprocess.run(['sudo', 'pkill', 'mpv'])
 
         with self._play_lock:  # Ensure thread-safe video switching
             try:

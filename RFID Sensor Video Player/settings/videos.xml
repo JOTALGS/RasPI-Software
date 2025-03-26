@@ -1,25 +1,25 @@
 <?xml version="1.0"?>
 <videos>
-    <card id="0D00945F23E5">/home/pi/Videos/video4.mp4</card>
-    <card id="3A006C13BDF8">/home/pi/Videos/video3.mp4</card>
-    <card id="0D0093FAEB8F">/home/pi/Videos/video2.mp4</card>
-    <card id="3A006C1ED098">/home/pi/Videos/video1.mp4</card>
-    <card id="3A005C8604E4">/home/pi/Videos/video5.mp4</card>
+    <card id="0D00945F23E5">/home/pi/Videos/video8.mp4</card>
+    <card id="3A006C13BDF8">/home/pi/Videos/video5.mp4</card>
+    <card id="0D0093FAEB8F">/home/pi/Videos/video3.mp4</card>
+    <card id="3A006C1ED098">/home/pi/Videos/video2.mp4</card>
+    <card id="3A005C8604E4">/home/pi/Videos/video1.mp4</card>
     <card id="3A005C940DFF">/home/pi/Videos/video6.mp4</card>
     
     
     <card id="4200E56564A6">/home/pi/Videos/video7.mp4</card>
     <card id="1200227AE9A3">/home/pi/Videos/video8.mp4</card>
-    <card id="49007B8504B3">/home/pi/Videos/video9.mp4</card>
-    <card id="1100A2517E9C">/home/pi/Videos/video10.mp4</card>
-    <card id="040064706575">/home/pi/Videos/video11.mp4</card>
-    <card id="82003BCDEC98">/home/pi/Videos/video12.mp4</card>
-    <card id="040060220543">/home/pi/Videos/video13.mp4</card>
-    <card id="040063BFCD15">/home/pi/Videos/video14.mp4</card>
-    <card id="390035ED9170">/home/pi/Videos/video15.mp4</card>
-    <card id="390036FD15E7">/home/pi/Videos/video16.mp4</card>
+    <card id="49007B8504B3">/home/pi/Videos/video5.mp4</card>
+    <card id="1100A2517E9C">/home/pi/Videos/video1.mp4</card>
+    <card id="040064706575">/home/pi/Videos/video1.mp4</card>
+    <card id="82003BCDEC98">/home/pi/Videos/video2.mp4</card>
+    <card id="040060220543">/home/pi/Videos/video3.mp4</card>
+    <card id="040063BFCD15">/home/pi/Videos/video4.mp4</card>
+    <card id="390035ED9170">/home/pi/Videos/video5.mp4</card>
+    <card id="390036FD15E7">/home/pi/Videos/video6.mp4</card>
     <card id="390036FA4ABF">/home/pi/Videos/video7.mp4</card>
-    <card id="3B000C69E8B6">/home/pi/Videos/video12.mp4</card>
+    <card id="3B000C69E8B6">/home/pi/Videos/video8.mp4</card>
     <card id="3A004444B18B">/home/pi/Videos/video1.mp4</card>
 
     <screensaver>/home/pi/Videos/Salvapantallas.mp4</screensaver>

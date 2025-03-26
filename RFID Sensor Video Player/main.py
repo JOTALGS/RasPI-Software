@@ -14,7 +14,7 @@ logging.basicConfig(
 def main():
 
     #VIDEO_PATH = '/home/pi/Videos/Salvapantallas.mp4'
-    IMAGE_PATH = '/home/pi/Pictures/wp3597502-black-screen-wallpapers.jpg'
+    IMAGE_PATH = '/home/pi/Documents/RasPI-Software-main/RFIDSensorVideoPlayer/settings/wp2.jpg'
 
     #open_image_fullscreen_non_blocking(VIDEO_PATH, image=False)
     open_image_fullscreen_non_blocking(IMAGE_PATH, image=True)

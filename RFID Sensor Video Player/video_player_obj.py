@@ -66,7 +66,7 @@ class VideoSensorController:
         rfid_thread.start()
 
         # Start initial video
-        self.player.play_video(self.current_video)
+        self.player.play_video(self.current_video, loop=True)
         
     def cleanup(self):
         """Clean up resources"""
@@ -90,7 +90,7 @@ class VideoPlayer:
         try:
             event_str = str(event)
             if "reason': b'eof'" in event_str:
-                self.play_video(1)
+                self.play_video(1, loop=True)
                 logging.debug(f"##### TIMESTAMP: video triggered by eof excecuted {time.time()}")
                 pass
         except Exception as e:
@@ -120,6 +120,9 @@ class VideoPlayer:
                 ontop=True,
                 keepaspect=True,
                 screen=0,
+                ao='alsa',
+                volume=100,
+                audio_device='hdmi',
             )
             
             # Set up end-file event callback
@@ -165,7 +168,7 @@ class VideoPlayer:
             logging.error(f"Setup failed: {str(e)}", exc_info=True)
             return False
 
-    def play_video(self, video_index):
+    def play_video(self, video_index, loop=False):
         """Play a specific video by index - non-blocking"""
         start_time = time.time()
         subprocess.run(['sudo', 'pkill', 'mpv'])
@@ -200,6 +203,9 @@ class VideoPlayer:
                     
                     # Stop current video if playing
                     self.player.stop()
+                    
+                    # Player loop
+                    self.player.loop_file = 'inf' if loop else 'no'
                     
                     # Start new video
                     self._current_video = video_index

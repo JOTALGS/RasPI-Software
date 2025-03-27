@@ -1,80 +1,251 @@
-2025-03-06 22:29:45,198 - INFO - Starting video player application
-2025-03-06 22:29:45,208 - INFO - Starting setup...
-2025-03-06 22:29:45,209 - DEBUG - Parsing XML configuration...
-2025-03-06 22:29:45,238 - DEBUG - Found 5 video paths
-2025-03-06 22:29:45,238 - DEBUG - Initializing MPV player...
-2025-03-06 22:29:45,511 - INFO - Setup completed successfully
-2025-03-06 22:29:45,511 - INFO - Listening for RFID scans on /dev/ttyUSB0...
-2025-03-06 22:29:45,512 - INFO - Starting RFID monitoring thread
-2025-03-06 22:29:51,378 - INFO - RFID Card Scanned: 0D0093FAEB8F
-2025-03-06 22:29:51,379 - INFO - Changing video to 0D0093FAEB8F
-2025-03-06 22:29:51,379 - INFO - Attempting to play video index 0D0093FAEB8F
-2025-03-06 22:29:51,379 - INFO - Playing video: /home/pi/Videos/video2.mp4
-2025-03-06 22:29:51,380 - DEBUG - Video playback started
-2025-03-06 22:29:51,380 - DEBUG - Video change took 0.0012104511260986328 seconds
+2025-03-26 12:38:01,796 - INFO - Starting video player application
+2025-03-26 12:38:01,805 - INFO - Starting setup...
+2025-03-26 12:38:01,805 - DEBUG - Parsing XML configuration...
+2025-03-26 12:38:01,814 - DEBUG - Found 20 video paths
+2025-03-26 12:38:01,814 - DEBUG - Initializing MPV player...
+2025-03-26 12:38:01,932 - INFO - Setup completed successfully
+2025-03-26 12:38:01,933 - INFO - Listening for RFID scans on /dev/ttyUSB0...
+2025-03-26 12:38:01,933 - INFO - Starting RFID monitoring thread
+2025-03-26 12:38:01,997 - INFO - Attempting to play video index 1
+2025-03-26 12:38:01,998 - INFO - Playing video: /home/pi/Videos/Salvapantallas.mp4
+2025-03-26 12:38:01,999 - DEBUG - Video playback started
+2025-03-26 12:38:02,000 - DEBUG - Video change took 0.06650638580322266 seconds
 error: XDG_RUNTIME_DIR is invalid or not set in the environment.
-2025-03-06 22:29:52,482 - INFO - RFID Card Scanned: 
-2025-03-06 22:29:52,482 - INFO - Changing video to 
-2025-03-06 22:29:52,482 - INFO - Attempting to play video index 
-2025-03-06 22:29:52,482 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '1']
-2025-03-06 22:29:52,482 - DEBUG - Video change took 0.0002620220184326172 seconds
 error: XDG_RUNTIME_DIR is invalid or not set in the environment.
-Cannot connect to server socket err = No such file or directory
-Cannot connect to server request channel
-jack server is not running or cannot be started
-JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
-JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
-2025-03-06 22:29:55,297 - INFO - ESC key pressed
-2025-03-06 22:29:55,298 - INFO - Starting cleanup...
-2025-03-06 22:29:55,400 - ERROR - Error during player termination: terminate() should not be called from event thread (e.g. from a callback function). If you want to terminate mpv from here, please call quit() instead, then sync the main thread against the event thread using e.g. wait_for_shutdown(), then terminate() from the main thread. This call has been transformed into a call to quit().
-s
-2025-03-06 22:25:03,528 - INFO - ESC key pressed
-2025-03-06 22:25:03,529 - INFO - Starting cleanup...
-2025-03-06 22:25:03,630 - ERROR - Error during player termination: terminate() should not be called from event thread (e.g. from a callback function). If you want to terminate mpv from here, please call quit() instead, then sync the main thread against the event thread using e.g. wait_for_shutdown(), then terminate() from the main thread. This call has been transformed into a call to quit().
-e mpv from here, please call quit() instead, then sync the main thread against the event thread using e.g. wait_for_shutdown(), then terminate() from the main thread. This call has been transformed into a call to quit().
-sorVideoPlayer/video_player_obj.py", line 212, in signal_handler
-    self.cleanup()
-  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/video_player_obj.py", line 207, in cleanup
-    sys.exit(0)
-SystemExit: 0
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/main.py", line 43, in <module>
-    main()
-  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/main.py", line 39, in main
-    background.close()
-    ^^^^^^^^^^
-NameError: name 'background' is not defined
-    sys.exit(0)
-SystemExit: 0
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/main.py", line 43, in <module>
-    main()
-  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/main.py", line 39, in main
-    background.close()
-    ^^^^^^^^^^
-NameError: name 'background' is not defined
-25-03-06 19:48:04,390 - INFO - Player terminated successfully
-Traceback (most recent call last):
-  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/main.py", line 30, in main
-    time.sleep(0.1)
-  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/video_player_obj.py", line 212, in signal_handler
-    self.cleanup()
-  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/video_player_obj.py", line 207, in cleanup
-    sys.exit(0)
-SystemExit: 0
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/main.py", line 43, in <module>
-    main()
-  File "/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/main.py", line 39, in main
-    background.close()
-    ^^^^^^^^^^
-NameError: name 'background' is not defined
+2025-03-26 12:38:10,280 - INFO - RFID Card Scanned: 0D00945F23E5
+2025-03-26 12:38:10,280 - INFO - Changing video to 0D00945F23E5
+2025-03-26 12:38:10,349 - INFO - Attempting to play video index 0D00945F23E5
+2025-03-26 12:38:10,349 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-03-26 12:38:10,352 - DEBUG - ##### TIMESTAMP: eof event catched 1742992690.3522604
+2025-03-26 12:38:10,388 - DEBUG - Video playback started
+2025-03-26 12:38:10,388 - DEBUG - Video change took 0.10816001892089844 seconds
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+2025-03-26 12:38:11,491 - INFO - RFID Card Scanned: 
+2025-03-26 12:38:11,491 - INFO - Changing video to 
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+2025-03-26 12:38:11,553 - INFO - Attempting to play video index 
+2025-03-26 12:38:11,553 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:38:11,553 - DEBUG - Video change took 0.06204676628112793 seconds
+2025-03-26 12:38:17,495 - INFO - RFID Card Scanned: 3A005C8604E4
+2025-03-26 12:38:17,495 - INFO - Changing video to 3A005C8604E4
+2025-03-26 12:38:17,583 - INFO - Attempting to play video index 3A005C8604E4
+2025-03-26 12:38:17,583 - INFO - Playing video: /home/pi/Videos/video1.mp4
+2025-03-26 12:38:17,588 - DEBUG - Video playback started
+2025-03-26 12:38:17,588 - DEBUG - ##### TIMESTAMP: eof event catched 1742992697.5887537
+2025-03-26 12:38:17,588 - DEBUG - Video change took 0.09325313568115234 seconds
+2025-03-26 12:38:18,692 - INFO - RFID Card Scanned: 
+2025-03-26 12:38:18,692 - INFO - Changing video to 
+2025-03-26 12:38:18,765 - INFO - Attempting to play video index 
+2025-03-26 12:38:18,765 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:38:18,765 - DEBUG - Video change took 0.07316708564758301 seconds
+2025-03-26 12:38:22,005 - INFO - RFID Card Scanned: 3A006C1ED098
+2025-03-26 12:38:22,006 - INFO - Changing video to 3A006C1ED098
+2025-03-26 12:38:22,071 - INFO - Attempting to play video index 3A006C1ED098
+2025-03-26 12:38:22,071 - INFO - Playing video: /home/pi/Videos/video2.mp4
+2025-03-26 12:38:22,094 - DEBUG - Video playback started
+2025-03-26 12:38:22,094 - DEBUG - Video change took 0.08832120895385742 seconds
+2025-03-26 12:38:22,094 - DEBUG - ##### TIMESTAMP: eof event catched 1742992702.0943837
+2025-03-26 12:38:23,196 - INFO - RFID Card Scanned: 
+2025-03-26 12:38:23,196 - INFO - Changing video to 
+2025-03-26 12:38:23,274 - INFO - Attempting to play video index 
+2025-03-26 12:38:23,274 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:38:23,277 - DEBUG - Video change took 0.08055806159973145 seconds
+2025-03-26 12:38:25,669 - INFO - RFID Card Scanned: 3A006C13BDF8
+2025-03-26 12:38:25,669 - INFO - Changing video to 3A006C13BDF8
+2025-03-26 12:38:25,739 - INFO - Attempting to play video index 3A006C13BDF8
+2025-03-26 12:38:25,739 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-03-26 12:38:25,740 - DEBUG - Video playback started
+2025-03-26 12:38:25,740 - DEBUG - Video change took 0.07112741470336914 seconds
+2025-03-26 12:38:25,756 - DEBUG - ##### TIMESTAMP: eof event catched 1742992705.7565382
+2025-03-26 12:38:26,846 - INFO - RFID Card Scanned: 
+2025-03-26 12:38:26,846 - INFO - Changing video to 
+2025-03-26 12:38:26,918 - INFO - Attempting to play video index 
+2025-03-26 12:38:26,918 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:38:26,919 - DEBUG - Video change took 0.07224631309509277 seconds
+2025-03-26 12:38:29,556 - INFO - RFID Card Scanned: 3A005C940DFF
+2025-03-26 12:38:29,556 - INFO - Changing video to 3A005C940DFF
+2025-03-26 12:38:29,626 - INFO - Attempting to play video index 3A005C940DFF
+2025-03-26 12:38:29,626 - INFO - Playing video: /home/pi/Videos/video6.mp4
+2025-03-26 12:38:29,649 - DEBUG - Video playback started
+2025-03-26 12:38:29,650 - DEBUG - Video change took 0.09299063682556152 seconds
+2025-03-26 12:38:29,650 - DEBUG - ##### TIMESTAMP: eof event catched 1742992709.6503427
+2025-03-26 12:38:30,751 - INFO - RFID Card Scanned: 
+2025-03-26 12:38:30,752 - INFO - Changing video to 
+2025-03-26 12:38:30,815 - INFO - Attempting to play video index 
+2025-03-26 12:38:30,815 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:38:30,815 - DEBUG - Video change took 0.06367611885070801 seconds
+2025-03-26 12:38:33,955 - INFO - RFID Card Scanned: 0D0093FAEB8F
+2025-03-26 12:38:33,956 - INFO - Changing video to 0D0093FAEB8F
+2025-03-26 12:38:34,018 - INFO - Attempting to play video index 0D0093FAEB8F
+2025-03-26 12:38:34,018 - INFO - Playing video: /home/pi/Videos/video3.mp4
+2025-03-26 12:38:34,020 - DEBUG - Video playback started
+2025-03-26 12:38:34,021 - DEBUG - ##### TIMESTAMP: eof event catched 1742992714.0209484
+2025-03-26 12:38:34,021 - DEBUG - Video change took 0.06488490104675293 seconds
+2025-03-26 12:38:35,123 - INFO - RFID Card Scanned: 
+2025-03-26 12:38:35,123 - INFO - Changing video to 
+2025-03-26 12:38:35,195 - INFO - Attempting to play video index 
+2025-03-26 12:38:35,196 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:38:35,196 - DEBUG - Video change took 0.07258939743041992 seconds
+2025-03-26 12:38:38,307 - INFO - RFID Card Scanned: 390036FD15E7
+2025-03-26 12:38:38,307 - INFO - Changing video to 390036FD15E7
+2025-03-26 12:38:38,412 - INFO - Attempting to play video index 390036FD15E7
+2025-03-26 12:38:38,413 - INFO - Playing video: /home/pi/Videos/video6.mp4
+2025-03-26 12:38:38,413 - DEBUG - Video playback started
+2025-03-26 12:38:38,415 - DEBUG - Video change took 0.10789012908935547 seconds
+2025-03-26 12:38:38,417 - DEBUG - ##### TIMESTAMP: eof event catched 1742992718.4175591
+2025-03-26 12:38:39,517 - INFO - RFID Card Scanned: 
+2025-03-26 12:38:39,517 - INFO - Changing video to 
+2025-03-26 12:38:39,583 - INFO - Attempting to play video index 
+2025-03-26 12:38:39,583 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:38:39,583 - DEBUG - Video change took 0.06612491607666016 seconds
+2025-03-26 12:38:41,734 - INFO - RFID Card Scanned: 3B000C69E8B6
+2025-03-26 12:38:41,734 - INFO - Changing video to 3B000C69E8B6
+2025-03-26 12:38:41,795 - INFO - Attempting to play video index 3B000C69E8B6
+2025-03-26 12:38:41,795 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-03-26 12:38:41,797 - DEBUG - Video playback started
+2025-03-26 12:38:41,798 - DEBUG - Video change took 0.063873291015625 seconds
+2025-03-26 12:38:41,798 - DEBUG - ##### TIMESTAMP: eof event catched 1742992721.7986383
+2025-03-26 12:38:42,903 - INFO - RFID Card Scanned: 
+2025-03-26 12:38:42,903 - INFO - Changing video to 
+2025-03-26 12:38:42,962 - INFO - Attempting to play video index 
+2025-03-26 12:38:42,962 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:38:42,962 - DEBUG - Video change took 0.05872941017150879 seconds
+2025-03-26 12:38:46,770 - INFO - RFID Card Scanned: 3A004444B18B
+2025-03-26 12:38:46,770 - INFO - Changing video to 3A004444B18B
+2025-03-26 12:38:46,866 - INFO - Attempting to play video index 3A004444B18B
+2025-03-26 12:38:46,866 - INFO - Playing video: /home/pi/Videos/video1.mp4
+2025-03-26 12:38:46,872 - DEBUG - Video playback started
+2025-03-26 12:38:46,873 - DEBUG - ##### TIMESTAMP: eof event catched 1742992726.8732393
+2025-03-26 12:38:46,873 - DEBUG - Video change took 0.10249876976013184 seconds
+2025-03-26 12:38:47,976 - INFO - RFID Card Scanned: 
+2025-03-26 12:38:47,976 - INFO - Changing video to 
+2025-03-26 12:38:48,049 - INFO - Attempting to play video index 
+2025-03-26 12:38:48,050 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:38:48,050 - DEBUG - Video change took 0.07336544990539551 seconds
+2025-03-26 12:38:50,353 - INFO - RFID Card Scanned: 040060220543
+2025-03-26 12:38:50,354 - INFO - Changing video to 040060220543
+2025-03-26 12:38:50,425 - INFO - Attempting to play video index 040060220543
+2025-03-26 12:38:50,425 - INFO - Playing video: /home/pi/Videos/video3.mp4
+2025-03-26 12:38:50,428 - DEBUG - Video playback started
+2025-03-26 12:38:50,428 - DEBUG - ##### TIMESTAMP: eof event catched 1742992730.4283414
+2025-03-26 12:38:50,428 - DEBUG - Video change took 0.07432365417480469 seconds
+2025-03-26 12:38:51,530 - INFO - RFID Card Scanned: 
+2025-03-26 12:38:51,531 - INFO - Changing video to 
+2025-03-26 12:38:51,606 - INFO - Attempting to play video index 
+2025-03-26 12:38:51,606 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:38:51,607 - DEBUG - Video change took 0.07631111145019531 seconds
+2025-03-26 12:38:53,984 - INFO - RFID Card Scanned: 390036FA4ABF
+2025-03-26 12:38:53,984 - INFO - Changing video to 390036FA4ABF
+2025-03-26 12:38:54,049 - INFO - Attempting to play video index 390036FA4ABF
+2025-03-26 12:38:54,049 - INFO - Playing video: /home/pi/Videos/video7.mp4
+2025-03-26 12:38:54,065 - DEBUG - Video playback started
+2025-03-26 12:38:54,065 - DEBUG - Video change took 0.08108043670654297 seconds
+2025-03-26 12:38:54,066 - DEBUG - ##### TIMESTAMP: eof event catched 1742992734.0660615
+2025-03-26 12:38:55,169 - INFO - RFID Card Scanned: 
+2025-03-26 12:38:55,169 - INFO - Changing video to 
+2025-03-26 12:38:55,233 - INFO - Attempting to play video index 
+2025-03-26 12:38:55,233 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:38:55,233 - DEBUG - Video change took 0.06419563293457031 seconds
+2025-03-26 12:38:58,638 - INFO - RFID Card Scanned: 390035ED9170
+2025-03-26 12:38:58,638 - INFO - Changing video to 390035ED9170
+2025-03-26 12:38:58,700 - INFO - Attempting to play video index 390035ED9170
+2025-03-26 12:38:58,701 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-03-26 12:38:58,707 - DEBUG - ##### TIMESTAMP: eof event catched 1742992738.707902
+2025-03-26 12:38:58,739 - DEBUG - Video playback started
+2025-03-26 12:38:58,740 - DEBUG - Video change took 0.10148835182189941 seconds
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+2025-03-26 12:38:59,842 - INFO - RFID Card Scanned: 
+2025-03-26 12:38:59,842 - INFO - Changing video to 
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+2025-03-26 12:38:59,904 - INFO - Attempting to play video index 
+2025-03-26 12:38:59,905 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:38:59,905 - DEBUG - Video change took 0.06250166893005371 seconds
+2025-03-26 12:39:03,150 - INFO - RFID Card Scanned: 040063BFCD15
+2025-03-26 12:39:03,150 - INFO - Changing video to 040063BFCD15
+2025-03-26 12:39:03,219 - INFO - Attempting to play video index 040063BFCD15
+2025-03-26 12:39:03,219 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-03-26 12:39:03,282 - DEBUG - Video playback started
+2025-03-26 12:39:03,283 - DEBUG - Video change took 0.13201260566711426 seconds
+2025-03-26 12:39:03,283 - DEBUG - ##### TIMESTAMP: eof event catched 1742992743.283349
+2025-03-26 12:39:04,384 - INFO - RFID Card Scanned: 
+2025-03-26 12:39:04,385 - INFO - Changing video to 
+2025-03-26 12:39:04,456 - INFO - Attempting to play video index 
+2025-03-26 12:39:04,457 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:39:04,457 - DEBUG - Video change took 0.0721883773803711 seconds
+2025-03-26 12:39:08,221 - INFO - RFID Card Scanned: 82003BCDEC98
+2025-03-26 12:39:08,221 - INFO - Changing video to 82003BCDEC98
+2025-03-26 12:39:08,298 - INFO - Attempting to play video index 82003BCDEC98
+2025-03-26 12:39:08,298 - INFO - Playing video: /home/pi/Videos/video2.mp4
+2025-03-26 12:39:08,318 - DEBUG - Video playback started
+2025-03-26 12:39:08,318 - DEBUG - Video change took 0.09625840187072754 seconds
+2025-03-26 12:39:08,318 - DEBUG - ##### TIMESTAMP: eof event catched 1742992748.3186626
+2025-03-26 12:39:09,422 - INFO - RFID Card Scanned: 
+2025-03-26 12:39:09,422 - INFO - Changing video to 
+2025-03-26 12:39:09,489 - INFO - Attempting to play video index 
+2025-03-26 12:39:09,489 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:39:09,489 - DEBUG - Video change took 0.06705784797668457 seconds
+2025-03-26 12:39:11,214 - INFO - RFID Card Scanned: 040064706575
+2025-03-26 12:39:11,215 - INFO - Changing video to 040064706575
+2025-03-26 12:39:11,287 - INFO - Attempting to play video index 040064706575
+2025-03-26 12:39:11,287 - INFO - Playing video: /home/pi/Videos/video1.mp4
+2025-03-26 12:39:11,301 - DEBUG - Video playback started
+2025-03-26 12:39:11,301 - DEBUG - Video change took 0.08664965629577637 seconds
+2025-03-26 12:39:11,302 - DEBUG - ##### TIMESTAMP: eof event catched 1742992751.3021224
+2025-03-26 12:39:12,403 - INFO - RFID Card Scanned: 
+2025-03-26 12:39:12,403 - INFO - Changing video to 
+2025-03-26 12:39:12,473 - INFO - Attempting to play video index 
+2025-03-26 12:39:12,473 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:39:12,473 - DEBUG - Video change took 0.06985044479370117 seconds
+2025-03-26 12:39:14,220 - INFO - RFID Card Scanned: 1100A2517E9C
+2025-03-26 12:39:14,220 - INFO - Changing video to 1100A2517E9C
+2025-03-26 12:39:14,287 - INFO - Attempting to play video index 1100A2517E9C
+2025-03-26 12:39:14,288 - INFO - Playing video: /home/pi/Videos/video1.mp4
+2025-03-26 12:39:14,306 - DEBUG - Video playback started
+2025-03-26 12:39:14,306 - DEBUG - ##### TIMESTAMP: eof event catched 1742992754.3065336
+2025-03-26 12:39:14,306 - DEBUG - Video change took 0.08566761016845703 seconds
+2025-03-26 12:39:15,410 - INFO - RFID Card Scanned: 
+2025-03-26 12:39:15,410 - INFO - Changing video to 
+2025-03-26 12:39:15,480 - INFO - Attempting to play video index 
+2025-03-26 12:39:15,480 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:39:15,480 - DEBUG - Video change took 0.07001280784606934 seconds
+2025-03-26 12:39:17,292 - INFO - RFID Card Scanned: 4200E56564A6
+2025-03-26 12:39:17,292 - INFO - Changing video to 4200E56564A6
+2025-03-26 12:39:17,357 - INFO - Attempting to play video index 4200E56564A6
+2025-03-26 12:39:17,358 - INFO - Playing video: /home/pi/Videos/video7.mp4
+2025-03-26 12:39:17,377 - DEBUG - ##### TIMESTAMP: eof event catched 1742992757.3777516
+2025-03-26 12:39:17,406 - DEBUG - Video playback started
+2025-03-26 12:39:17,407 - DEBUG - Video change took 0.11434555053710938 seconds
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+2025-03-26 12:39:18,511 - INFO - RFID Card Scanned: 
+2025-03-26 12:39:18,511 - INFO - Changing video to 
+2025-03-26 12:39:18,600 - INFO - Attempting to play video index 
+2025-03-26 12:39:18,601 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:39:18,602 - DEBUG - Video change took 0.0906522274017334 seconds
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+2025-03-26 12:39:21,867 - INFO - RFID Card Scanned: 1200227AE9A3
+2025-03-26 12:39:21,867 - INFO - Changing video to 1200227AE9A3
+2025-03-26 12:39:21,929 - INFO - Attempting to play video index 1200227AE9A3
+2025-03-26 12:39:21,929 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-03-26 12:39:21,932 - DEBUG - Video playback started
+2025-03-26 12:39:21,932 - DEBUG - Video change took 0.0650324821472168 seconds
+2025-03-26 12:39:21,933 - DEBUG - ##### TIMESTAMP: eof event catched 1742992761.932962
+2025-03-26 12:39:23,034 - INFO - RFID Card Scanned: 
+2025-03-26 12:39:23,034 - INFO - Changing video to 
+2025-03-26 12:39:23,094 - INFO - Attempting to play video index 
+2025-03-26 12:39:23,094 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:39:23,094 - DEBUG - Video change took 0.060413360595703125 seconds
+2025-03-26 12:39:26,938 - INFO - RFID Card Scanned: 49007B8504B3
+2025-03-26 12:39:26,938 - INFO - Changing video to 49007B8504B3
+2025-03-26 12:39:27,036 - INFO - Attempting to play video index 49007B8504B3
+2025-03-26 12:39:27,036 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-03-26 12:39:27,039 - DEBUG - Video playback started
+2025-03-26 12:39:27,040 - DEBUG - Video change took 0.10123848915100098 seconds
+2025-03-26 12:39:27,040 - DEBUG - ##### TIMESTAMP: eof event catched 1742992767.0406563
+2025-03-26 12:39:28,142 - INFO - RFID Card Scanned: 
+2025-03-26 12:39:28,142 - INFO - Changing video to 
+2025-03-26 12:39:28,208 - INFO - Attempting to play video index 
+2025-03-26 12:39:28,208 - ERROR - Invalid video index . Valid range: ['0D00945F23E5', '3A006C13BDF8', '0D0093FAEB8F', '3A006C1ED098', '3A005C8604E4', '3A005C940DFF', '4200E56564A6', '1200227AE9A3', '49007B8504B3', '1100A2517E9C', '040064706575', '82003BCDEC98', '040060220543', '040063BFCD15', '390035ED9170', '390036FD15E7', '390036FA4ABF', '3B000C69E8B6', '3A004444B18B', '1']
+2025-03-26 12:39:28,209 - DEBUG - Video change took 0.06667447090148926 seconds
+2025-03-26 12:39:40,747 - INFO - ESC key pressed
+2025-03-26 12:39:40,747 - INFO - Starting cleanup...
+2025-03-26 12:39:40,847 - ERROR - Error during player termination: terminate() should not be called from event thread (e.g. from a callback function). If you want to terminate mpv from here, please call quit() instead, then sync the main thread against the event thread using e.g. wait_for_shutdown(), then terminate() from the main thread. This call has been transformed into a call to quit().

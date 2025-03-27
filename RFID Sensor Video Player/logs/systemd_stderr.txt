@@ -1,0 +1,30 @@
+2025-03-26 13:48:29,048 - INFO - Starting video player application
+2025-03-26 13:48:29,054 - INFO - Starting setup...
+2025-03-26 13:48:29,055 - DEBUG - Parsing XML configuration...
+2025-03-26 13:48:29,055 - DEBUG - Found 20 video paths
+2025-03-26 13:48:29,056 - DEBUG - Initializing MPV player...
+2025-03-26 13:48:29,087 - INFO - Setup completed successfully
+2025-03-26 13:48:29,088 - INFO - Listening for RFID scans on /dev/ttyUSB0...
+2025-03-26 13:48:29,089 - INFO - Starting RFID monitoring thread
+2025-03-26 13:48:29,198 - INFO - Attempting to play video index 1
+2025-03-26 13:48:29,199 - INFO - Playing video: /home/pi/Videos/Salvapantallas.mp4
+2025-03-26 13:48:29,200 - DEBUG - Video playback started
+2025-03-26 13:48:29,201 - DEBUG - Video change took 0.11082315444946289 seconds
+2025-03-26 13:48:34,049 - INFO - ESC key pressed
+2025-03-26 13:48:34,049 - INFO - Starting cleanup...
+2025-03-26 13:48:34,150 - ERROR - Error during player termination: terminate() should not be called from event thread (e.g. from a callback function). If you want to terminate mpv from here, please call quit() instead, then sync the main thread against the event thread using e.g. wait_for_shutdown(), then terminate() from the main thread. This call has been transformed into a call to quit().
+_player_obj.py", line 245, in signal_handler
+    self.cleanup()
+  File "/home/pi/Documents/RasPI-Software-main/RFIDSensorVideoPlayer/video_player_obj.py", line 240, in cleanup
+    sys.exit(0)
+SystemExit: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/Documents/RasPI-Software-main/RFIDSensorVideoPlayer/main.py", line 46, in <module>
+    main()
+  File "/home/pi/Documents/RasPI-Software-main/RFIDSensorVideoPlayer/main.py", line 42, in main
+    background.close()
+    ^^^^^^^^^^
+NameError: name 'background' is not defined

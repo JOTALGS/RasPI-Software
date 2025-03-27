@@ -221,6 +221,7 @@ class VideoPlayer:
     def cleanup(self):
         """Clean up resources and exit"""
         logging.info("Starting cleanup...")
+        subprocess.run(["sudo", "pkill", "unclutter"])
         self.running = False
         if self.player:
             try:

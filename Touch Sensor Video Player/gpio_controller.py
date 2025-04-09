@@ -9,7 +9,7 @@ logging.basicConfig(
 )
 
 class GPIOController:
-    def __init__(self, sensors=[17, 27]):
+    def __init__(self, sensors=[17, 27, 23, 24, 22, 25, 5, 6, 16, 26]):
         """Initialize GPIO Controller with sensor pins and logging"""
         self.sensors = sensors
         self.setup_gpio()

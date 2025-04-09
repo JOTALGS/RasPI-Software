@@ -1,0 +1,1488 @@
+2025-04-03 17:32:02,142 - INFO - Starting video player application
+2025-04-03 17:32:02,146 - DEBUG - Setup GPIO pin 17 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,146 - DEBUG - Setup GPIO pin 27 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,147 - DEBUG - Setup GPIO pin 23 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,147 - DEBUG - Setup GPIO pin 24 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,148 - DEBUG - Setup GPIO pin 22 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,149 - DEBUG - Setup GPIO pin 25 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,149 - DEBUG - Setup GPIO pin 5 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,150 - DEBUG - Setup GPIO pin 6 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,150 - DEBUG - Setup GPIO pin 16 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,150 - DEBUG - Setup GPIO pin 26 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,151 - INFO - GPIO setup completed successfully.
+2025-04-03 17:32:02,151 - INFO - Starting setup...
+2025-04-03 17:32:02,151 - DEBUG - Parsing XML configuration...
+2025-04-03 17:32:02,154 - DEBUG - Found 11 video paths
+2025-04-03 17:32:02,155 - DEBUG - Initializing MPV player...
+2025-04-03 17:32:02,281 - INFO - Setup completed successfully
+2025-04-03 17:32:02,281 - DEBUG - Setup GPIO pin 17 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,281 - DEBUG - Setup GPIO pin 27 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,281 - DEBUG - Setup GPIO pin 23 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,281 - DEBUG - Setup GPIO pin 24 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,282 - DEBUG - Setup GPIO pin 22 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,282 - DEBUG - Setup GPIO pin 25 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,282 - DEBUG - Setup GPIO pin 5 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,282 - DEBUG - Setup GPIO pin 6 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,282 - DEBUG - Setup GPIO pin 16 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,282 - DEBUG - Setup GPIO pin 26 as INPUT with PULL_DOWN
+2025-04-03 17:32:02,282 - INFO - GPIO setup completed successfully.
+2025-04-03 17:32:02,284 - INFO - Starting sensor monitoring thread
+2025-04-03 17:32:02,284 - INFO - Attempting to play video index 1
+2025-04-03 17:32:02,285 - INFO - Playing video: /home/pi/Videos/Salvapantallas.mp4
+2025-04-03 17:32:02,286 - DEBUG - Video playback started
+2025-04-03 17:32:02,286 - DEBUG - Video change took 0.0015659332275390625 seconds
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+Cannot connect to server socket err = No such file or directory
+Cannot connect to server request channel
+jack server is not running or cannot be started
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+2025-04-09 09:24:23,035 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:24:23,035 - INFO - Changing video to 6
+2025-04-09 09:24:23,035 - INFO - Attempting to play video index 6
+2025-04-09 09:24:23,035 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-09 09:24:23,036 - DEBUG - Video playback started
+2025-04-09 09:24:23,036 - DEBUG - Video change took 0.0008606910705566406 seconds
+2025-04-09 09:24:23,138 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:24:23,239 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:25:01,782 - INFO - Sensor 2 (GPIO 27) Touched!
+2025-04-09 09:25:01,782 - INFO - Changing video to 27
+2025-04-09 09:25:01,782 - INFO - Attempting to play video index 27
+2025-04-09 09:25:01,782 - INFO - Playing video: /home/pi/Videos/video2.mp4
+2025-04-09 09:25:01,782 - DEBUG - Video playback started
+2025-04-09 09:25:01,782 - DEBUG - Video change took 0.0005617141723632812 seconds
+2025-04-09 09:25:02,083 - INFO - Sensor 2 (GPIO 27) Touched!
+2025-04-09 09:25:02,184 - INFO - Sensor 2 (GPIO 27) Touched!
+2025-04-09 09:25:02,488 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-09 09:25:02,488 - INFO - Changing video to 24
+2025-04-09 09:25:02,488 - INFO - Attempting to play video index 24
+2025-04-09 09:25:02,488 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-09 09:25:02,489 - DEBUG - Video playback started
+2025-04-09 09:25:02,489 - DEBUG - Video change took 0.0006339550018310547 seconds
+2025-04-09 09:25:02,594 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-09 09:25:02,694 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-09 09:25:02,694 - INFO - Sensor 6 (GPIO 25) Touched!
+2025-04-09 09:25:02,694 - INFO - Changing video to 25
+2025-04-09 09:25:02,695 - INFO - Attempting to play video index 25
+2025-04-09 09:25:02,695 - INFO - Playing video: /home/pi/Videos/video6.mp4
+2025-04-09 09:25:02,695 - DEBUG - Video playback started
+2025-04-09 09:25:02,695 - DEBUG - Video change took 0.0005235671997070312 seconds
+2025-04-09 09:25:02,997 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:25:02,997 - INFO - Changing video to 6
+2025-04-09 09:25:02,998 - INFO - Attempting to play video index 6
+2025-04-09 09:25:02,998 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-09 09:25:02,998 - DEBUG - Video playback started
+2025-04-09 09:25:02,998 - DEBUG - Video change took 0.0005559921264648438 seconds
+2025-04-09 09:25:03,099 - INFO - Sensor 6 (GPIO 25) Touched!
+2025-04-09 09:25:03,099 - INFO - Changing video to 25
+2025-04-09 09:25:03,100 - INFO - Attempting to play video index 25
+2025-04-09 09:25:03,101 - INFO - Playing video: /home/pi/Videos/video6.mp4
+2025-04-09 09:25:03,103 - DEBUG - Video playback started
+2025-04-09 09:25:03,104 - DEBUG - Video change took 0.003446340560913086 seconds
+2025-04-09 09:25:03,104 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:25:03,104 - INFO - Changing video to 6
+2025-04-09 09:25:03,105 - INFO - Attempting to play video index 6
+2025-04-09 09:25:03,105 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-09 09:25:03,109 - DEBUG - Video playback started
+2025-04-09 09:25:03,110 - DEBUG - Video change took 0.005306720733642578 seconds
+2025-04-09 09:25:03,210 - INFO - Sensor 6 (GPIO 25) Touched!
+2025-04-09 09:25:03,211 - INFO - Changing video to 25
+2025-04-09 09:25:03,211 - INFO - Attempting to play video index 25
+2025-04-09 09:25:03,211 - INFO - Playing video: /home/pi/Videos/video6.mp4
+2025-04-09 09:25:03,211 - DEBUG - Video playback started
+2025-04-09 09:25:03,211 - DEBUG - Video change took 0.0005445480346679688 seconds
+2025-04-09 09:25:04,316 - INFO - Sensor 6 (GPIO 25) Touched!
+2025-04-09 09:25:04,317 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:25:04,317 - INFO - Changing video to 6
+2025-04-09 09:25:04,317 - INFO - Attempting to play video index 6
+2025-04-09 09:25:04,317 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-09 09:25:04,317 - DEBUG - Video playback started
+2025-04-09 09:25:04,317 - DEBUG - Video change took 0.0005815029144287109 seconds
+2025-04-09 09:25:04,418 - INFO - Sensor 6 (GPIO 25) Touched!
+2025-04-09 09:25:04,419 - INFO - Changing video to 25
+2025-04-09 09:25:04,419 - INFO - Attempting to play video index 25
+2025-04-09 09:25:04,419 - INFO - Playing video: /home/pi/Videos/video6.mp4
+2025-04-09 09:25:04,421 - DEBUG - Video playback started
+2025-04-09 09:25:04,421 - DEBUG - Video change took 0.0023055076599121094 seconds
+2025-04-09 09:25:04,422 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:25:04,422 - INFO - Changing video to 6
+2025-04-09 09:25:04,423 - INFO - Attempting to play video index 6
+2025-04-09 09:25:04,423 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-09 09:25:04,426 - DEBUG - Video playback started
+2025-04-09 09:25:04,427 - DEBUG - Video change took 0.004608869552612305 seconds
+2025-04-09 09:25:05,632 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-09 09:25:05,633 - INFO - Changing video to 22
+2025-04-09 09:25:05,633 - INFO - Attempting to play video index 22
+2025-04-09 09:25:05,633 - INFO - Playing video: /home/pi/Videos/video3.mp4
+2025-04-09 09:25:05,633 - DEBUG - Video playback started
+2025-04-09 09:25:05,634 - DEBUG - Video change took 0.0006356239318847656 seconds
+2025-04-09 09:25:05,736 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-09 09:25:06,340 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-09 09:25:06,841 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-09 09:25:06,842 - INFO - Changing video to 24
+2025-04-09 09:25:06,842 - INFO - Attempting to play video index 24
+2025-04-09 09:25:06,845 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-09 09:25:06,846 - DEBUG - Video playback started
+2025-04-09 09:25:06,846 - DEBUG - Video change took 0.004479408264160156 seconds
+2025-04-09 09:25:23,466 - INFO - Sensor 6 (GPIO 25) Touched!
+2025-04-09 09:25:23,466 - INFO - Changing video to 25
+2025-04-09 09:25:23,466 - INFO - Attempting to play video index 25
+2025-04-09 09:25:23,466 - INFO - Playing video: /home/pi/Videos/video6.mp4
+2025-04-09 09:25:23,467 - DEBUG - Video playback started
+2025-04-09 09:25:23,467 - DEBUG - Video change took 0.0011475086212158203 seconds
+2025-04-09 09:25:23,468 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:25:23,468 - INFO - Changing video to 6
+2025-04-09 09:25:23,468 - INFO - Attempting to play video index 6
+2025-04-09 09:25:23,469 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-09 09:25:23,472 - DEBUG - Video playback started
+2025-04-09 09:25:23,472 - DEBUG - Video change took 0.003943681716918945 seconds
+2025-04-09 09:25:23,573 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:25:23,673 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:25:23,774 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:25:23,874 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:25:24,175 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:25:24,276 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:25:30,787 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-09 09:25:30,787 - INFO - Changing video to 22
+2025-04-09 09:25:30,787 - INFO - Attempting to play video index 22
+2025-04-09 09:25:30,787 - INFO - Playing video: /home/pi/Videos/video3.mp4
+2025-04-09 09:25:30,788 - DEBUG - Video playback started
+2025-04-09 09:25:30,788 - DEBUG - Video change took 0.0006878376007080078 seconds
+2025-04-09 09:25:30,891 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-09 09:25:30,992 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-09 09:29:39,959 - INFO - Attempting to play video index 1
+2025-04-09 09:29:39,959 - INFO - Playing video: /home/pi/Videos/Salvapantallas.mp4
+2025-04-09 09:29:40,107 - DEBUG - Video playback started
+2025-04-09 09:29:40,108 - DEBUG - Video change took 0.1487874984741211 seconds
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+2025-04-09 09:31:27,220 - INFO - Attempting to play video index 1
+2025-04-09 09:31:27,221 - INFO - Playing video: /home/pi/Videos/Salvapantallas.mp4
+2025-04-09 09:31:27,385 - DEBUG - Video playback started
+2025-04-09 09:31:27,386 - DEBUG - Video change took 0.16547632217407227 seconds
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+2025-04-09 09:32:25,607 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-09 09:32:25,608 - INFO - Changing video to 23
+2025-04-09 09:32:25,608 - INFO - Attempting to play video index 23
+2025-04-09 09:32:25,608 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-09 09:32:25,608 - DEBUG - Video playback started
+2025-04-09 09:32:25,608 - DEBUG - Video change took 0.0006561279296875 seconds
+2025-04-09 09:32:25,712 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-09 09:32:25,713 - INFO - Sensor 6 (GPIO 25) Touched!
+2025-04-09 09:32:25,713 - INFO - Changing video to 25
+2025-04-09 09:32:25,713 - INFO - Attempting to play video index 25
+2025-04-09 09:32:25,714 - INFO - Playing video: /home/pi/Videos/video6.mp4
+2025-04-09 09:32:25,730 - DEBUG - Video playback started
+2025-04-09 09:32:25,730 - DEBUG - Video change took 0.017034530639648438 seconds
+2025-04-09 09:32:25,836 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-09 09:32:25,837 - INFO - Changing video to 24
+2025-04-09 09:32:25,837 - INFO - Attempting to play video index 24
+2025-04-09 09:32:25,838 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-09 09:32:25,839 - DEBUG - Video playback started
+2025-04-09 09:32:25,839 - DEBUG - Video change took 0.0021593570709228516 seconds
+2025-04-09 09:32:25,941 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-09 09:32:26,042 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-09 09:32:26,042 - INFO - Sensor 6 (GPIO 25) Touched!
+2025-04-09 09:32:26,042 - INFO - Changing video to 25
+2025-04-09 09:32:26,042 - INFO - Attempting to play video index 25
+2025-04-09 09:32:26,045 - INFO - Playing video: /home/pi/Videos/video6.mp4
+2025-04-09 09:32:26,046 - DEBUG - Video playback started
+2025-04-09 09:32:26,046 - DEBUG - Video change took 0.0038166046142578125 seconds
+2025-04-09 09:32:26,046 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:32:26,046 - INFO - Changing video to 6
+2025-04-09 09:32:26,046 - INFO - Attempting to play video index 6
+2025-04-09 09:32:26,046 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-09 09:32:26,048 - DEBUG - Video playback started
+2025-04-09 09:32:26,048 - DEBUG - Video change took 0.0020456314086914062 seconds
+2025-04-09 09:32:26,149 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-09 09:32:26,149 - INFO - Changing video to 23
+2025-04-09 09:32:26,149 - INFO - Attempting to play video index 23
+2025-04-09 09:32:26,149 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-09 09:32:26,150 - DEBUG - Video playback started
+2025-04-09 09:32:26,150 - DEBUG - Video change took 0.0005424022674560547 seconds
+2025-04-09 09:32:26,150 - INFO - Sensor 6 (GPIO 25) Touched!
+2025-04-09 09:32:26,150 - INFO - Changing video to 25
+2025-04-09 09:32:26,150 - INFO - Attempting to play video index 25
+2025-04-09 09:32:26,150 - INFO - Playing video: /home/pi/Videos/video6.mp4
+2025-04-09 09:32:26,152 - DEBUG - Video playback started
+2025-04-09 09:32:26,152 - DEBUG - Video change took 0.0022401809692382812 seconds
+2025-04-09 09:32:26,153 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:32:26,153 - INFO - Changing video to 6
+2025-04-09 09:32:26,153 - INFO - Attempting to play video index 6
+2025-04-09 09:32:26,153 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-09 09:32:26,153 - DEBUG - Video playback started
+2025-04-09 09:32:26,154 - DEBUG - Video change took 0.0009722709655761719 seconds
+2025-04-09 09:32:26,255 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-09 09:32:26,255 - INFO - Changing video to 23
+2025-04-09 09:32:26,255 - INFO - Attempting to play video index 23
+2025-04-09 09:32:26,255 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-09 09:32:26,256 - DEBUG - Video playback started
+2025-04-09 09:32:26,256 - DEBUG - Video change took 0.0006563663482666016 seconds
+2025-04-09 09:32:26,256 - INFO - Sensor 6 (GPIO 25) Touched!
+2025-04-09 09:32:26,256 - INFO - Changing video to 25
+2025-04-09 09:32:26,256 - INFO - Attempting to play video index 25
+2025-04-09 09:32:26,256 - INFO - Playing video: /home/pi/Videos/video6.mp4
+2025-04-09 09:32:26,260 - DEBUG - Video playback started
+2025-04-09 09:32:26,260 - DEBUG - Video change took 0.0038704872131347656 seconds
+2025-04-09 09:32:26,260 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:32:26,260 - INFO - Changing video to 6
+2025-04-09 09:32:26,260 - INFO - Attempting to play video index 6
+2025-04-09 09:32:26,260 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-09 09:32:26,261 - DEBUG - Video playback started
+2025-04-09 09:32:26,262 - DEBUG - Video change took 0.0013713836669921875 seconds
+2025-04-09 09:32:26,362 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-09 09:32:26,362 - INFO - Changing video to 23
+2025-04-09 09:32:26,362 - INFO - Attempting to play video index 23
+2025-04-09 09:32:26,362 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-09 09:32:26,363 - DEBUG - Video playback started
+2025-04-09 09:32:26,363 - DEBUG - Video change took 0.0005218982696533203 seconds
+2025-04-09 09:32:26,363 - INFO - Sensor 6 (GPIO 25) Touched!
+2025-04-09 09:32:26,363 - INFO - Changing video to 25
+2025-04-09 09:32:26,363 - INFO - Attempting to play video index 25
+2025-04-09 09:32:26,363 - INFO - Playing video: /home/pi/Videos/video6.mp4
+2025-04-09 09:32:26,366 - DEBUG - Video playback started
+2025-04-09 09:32:26,366 - DEBUG - Video change took 0.003045797348022461 seconds
+2025-04-09 09:32:26,366 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:32:26,366 - INFO - Changing video to 6
+2025-04-09 09:32:26,366 - INFO - Attempting to play video index 6
+2025-04-09 09:32:26,367 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-09 09:32:26,367 - DEBUG - Video playback started
+2025-04-09 09:32:26,371 - DEBUG - Video change took 0.00400233268737793 seconds
+2025-04-09 09:32:26,471 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-09 09:32:26,471 - INFO - Changing video to 23
+2025-04-09 09:32:26,471 - INFO - Attempting to play video index 23
+2025-04-09 09:32:26,472 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-09 09:32:26,473 - DEBUG - Video playback started
+2025-04-09 09:32:26,473 - DEBUG - Video change took 0.0016422271728515625 seconds
+2025-04-09 09:32:26,474 - INFO - Sensor 6 (GPIO 25) Touched!
+2025-04-09 09:32:26,474 - INFO - Changing video to 25
+2025-04-09 09:32:26,474 - INFO - Attempting to play video index 25
+2025-04-09 09:32:26,475 - INFO - Playing video: /home/pi/Videos/video6.mp4
+2025-04-09 09:32:26,489 - DEBUG - Video playback started
+2025-04-09 09:32:26,489 - DEBUG - Video change took 0.014627933502197266 seconds
+2025-04-09 09:32:26,690 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-09 09:32:26,690 - INFO - Changing video to 23
+2025-04-09 09:32:26,690 - INFO - Attempting to play video index 23
+2025-04-09 09:32:26,690 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-09 09:32:26,691 - DEBUG - Video playback started
+2025-04-09 09:32:26,691 - DEBUG - Video change took 0.0005638599395751953 seconds
+2025-04-09 09:32:26,791 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-09 09:32:26,892 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-09 09:32:26,992 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-09 09:32:27,096 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-09 09:32:27,196 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-09 09:32:27,300 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-09 09:32:27,400 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-09 09:32:27,400 - INFO - Sensor 6 (GPIO 25) Touched!
+2025-04-09 09:32:27,400 - INFO - Changing video to 25
+2025-04-09 09:32:27,400 - INFO - Attempting to play video index 25
+2025-04-09 09:32:27,400 - INFO - Playing video: /home/pi/Videos/video6.mp4
+2025-04-09 09:32:27,401 - DEBUG - Video playback started
+2025-04-09 09:32:27,401 - DEBUG - Video change took 0.0005562305450439453 seconds
+2025-04-09 09:32:27,501 - INFO - Sensor 6 (GPIO 25) Touched!
+2025-04-09 09:32:28,103 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:32:28,103 - INFO - Changing video to 6
+2025-04-09 09:32:28,103 - INFO - Attempting to play video index 6
+2025-04-09 09:32:28,103 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-09 09:32:28,104 - DEBUG - Video playback started
+2025-04-09 09:32:28,104 - DEBUG - Video change took 0.0006847381591796875 seconds
+2025-04-09 09:32:28,204 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:32:28,305 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:32:28,506 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:32:28,607 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-09 09:32:28,607 - INFO - Changing video to 23
+2025-04-09 09:32:28,607 - INFO - Attempting to play video index 23
+2025-04-09 09:32:28,607 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-09 09:32:28,608 - DEBUG - Video playback started
+2025-04-09 09:32:28,609 - DEBUG - Video change took 0.0017309188842773438 seconds
+2025-04-09 09:32:28,609 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:32:28,609 - INFO - Changing video to 6
+2025-04-09 09:32:28,610 - INFO - Attempting to play video index 6
+2025-04-09 09:32:28,610 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-09 09:32:28,657 - DEBUG - Video playback started
+2025-04-09 09:32:28,658 - DEBUG - Video change took 0.04853558540344238 seconds
+2025-04-09 09:32:31,965 - INFO - Sensor 7 (GPIO 5) Touched!
+2025-04-09 09:32:31,965 - INFO - Changing video to 5
+2025-04-09 09:32:31,965 - INFO - Attempting to play video index 5
+2025-04-09 09:32:31,965 - INFO - Playing video: /home/pi/Videos/video7.mp4
+2025-04-09 09:32:31,968 - DEBUG - Video playback started
+2025-04-09 09:32:31,968 - DEBUG - Video change took 0.002956867218017578 seconds
+2025-04-09 09:35:08,134 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:35:08,134 - INFO - Changing video to 6
+2025-04-09 09:35:08,134 - INFO - Attempting to play video index 6
+2025-04-09 09:35:08,138 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-09 09:35:08,138 - DEBUG - Video playback started
+2025-04-09 09:35:08,138 - DEBUG - Video change took 0.0041468143463134766 seconds
+2025-04-09 09:35:08,239 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:35:15,765 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-09 09:35:15,765 - INFO - Changing video to 22
+2025-04-09 09:35:15,765 - INFO - Attempting to play video index 22
+2025-04-09 09:35:15,766 - INFO - Playing video: /home/pi/Videos/video3.mp4
+2025-04-09 09:35:15,766 - DEBUG - Video playback started
+2025-04-09 09:35:15,766 - DEBUG - Video change took 0.0007376670837402344 seconds
+2025-04-09 09:35:15,867 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-09 09:35:15,968 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-09 09:35:18,072 - INFO - Sensor 2 (GPIO 27) Touched!
+2025-04-09 09:35:18,072 - INFO - Changing video to 27
+2025-04-09 09:35:18,072 - INFO - Attempting to play video index 27
+2025-04-09 09:35:18,072 - INFO - Playing video: /home/pi/Videos/video2.mp4
+2025-04-09 09:35:18,072 - DEBUG - Video playback started
+2025-04-09 09:35:18,072 - DEBUG - Video change took 0.0005583763122558594 seconds
+2025-04-09 09:35:18,173 - INFO - Sensor 2 (GPIO 27) Touched!
+2025-04-09 09:35:18,374 - INFO - Sensor 2 (GPIO 27) Touched!
+2025-04-09 09:35:18,374 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-09 09:35:18,375 - INFO - Changing video to 23
+2025-04-09 09:35:18,375 - INFO - Attempting to play video index 23
+2025-04-09 09:35:18,375 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-09 09:35:18,375 - DEBUG - Video playback started
+2025-04-09 09:35:18,375 - DEBUG - Video change took 0.0005292892456054688 seconds
+2025-04-09 09:35:18,375 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:35:18,375 - INFO - Changing video to 6
+2025-04-09 09:35:18,375 - INFO - Attempting to play video index 6
+2025-04-09 09:35:18,376 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-09 09:35:18,385 - DEBUG - Video playback started
+2025-04-09 09:35:18,385 - DEBUG - Video change took 0.009793519973754883 seconds
+2025-04-09 09:35:18,485 - INFO - Sensor 2 (GPIO 27) Touched!
+2025-04-09 09:35:18,486 - INFO - Changing video to 27
+2025-04-09 09:35:18,486 - INFO - Attempting to play video index 27
+2025-04-09 09:35:18,486 - INFO - Playing video: /home/pi/Videos/video2.mp4
+2025-04-09 09:35:18,486 - DEBUG - Video playback started
+2025-04-09 09:35:18,486 - DEBUG - Video change took 0.0005431175231933594 seconds
+2025-04-09 09:35:18,486 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-09 09:35:18,487 - INFO - Changing video to 23
+2025-04-09 09:35:18,487 - INFO - Attempting to play video index 23
+2025-04-09 09:35:18,487 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-09 09:35:18,488 - DEBUG - Video playback started
+2025-04-09 09:35:18,489 - DEBUG - Video change took 0.0020570755004882812 seconds
+2025-04-09 09:35:18,489 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:35:18,489 - INFO - Changing video to 6
+2025-04-09 09:35:18,489 - INFO - Attempting to play video index 6
+2025-04-09 09:35:18,489 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-09 09:35:18,489 - DEBUG - Video playback started
+2025-04-09 09:35:18,489 - DEBUG - Video change took 0.00042128562927246094 seconds
+2025-04-09 09:35:18,590 - INFO - Sensor 2 (GPIO 27) Touched!
+2025-04-09 09:35:18,590 - INFO - Changing video to 27
+2025-04-09 09:35:18,590 - INFO - Attempting to play video index 27
+2025-04-09 09:35:18,590 - INFO - Playing video: /home/pi/Videos/video2.mp4
+2025-04-09 09:35:18,590 - DEBUG - Video playback started
+2025-04-09 09:35:18,591 - DEBUG - Video change took 0.0005471706390380859 seconds
+2025-04-09 09:35:18,591 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-09 09:35:18,591 - INFO - Changing video to 23
+2025-04-09 09:35:18,591 - INFO - Attempting to play video index 23
+2025-04-09 09:35:18,591 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-09 09:35:18,594 - DEBUG - Video playback started
+2025-04-09 09:35:18,595 - DEBUG - Video change took 0.0038712024688720703 seconds
+2025-04-09 09:35:18,598 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-09 09:35:18,598 - INFO - Changing video to 6
+2025-04-09 09:35:18,598 - INFO - Attempting to play video index 6
+2025-04-09 09:35:18,598 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-09 09:35:18,599 - DEBUG - Video playback started
+2025-04-09 09:35:18,599 - DEBUG - Video change took 0.0005013942718505859 seconds
+2025-04-09 09:35:22,016 - INFO - ESC key pressed
+2025-04-09 09:35:22,016 - INFO - Starting cleanup...
+2025-04-09 09:35:22,117 - ERROR - Error during player termination: terminate() should not be called from event thread (e.g. from a callback function). If you want to terminate mpv from here, please call quit() instead, then sync the main thread against the event thread using e.g. wait_for_shutdown(), then terminate() from the main thread. This call has been transformed into a call to quit().
+2:17:55,283 - DEBUG - Video playback started
+2025-04-03 12:17:55,283 - DEBUG - Video change took 0.0005519390106201172 seconds
+2025-04-03 12:17:55,283 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:55,283 - INFO - Changing video to 22
+2025-04-03 12:17:55,283 - INFO - Attempting to play video index 22
+2025-04-03 12:17:55,283 - INFO - Playing video: /home/pi/Videos/video3.mp4
+2025-04-03 12:17:55,285 - DEBUG - Video playback started
+2025-04-03 12:17:55,286 - DEBUG - Video change took 0.0022897720336914062 seconds
+2025-04-03 12:17:55,386 - INFO - Sensor 1 (GPIO 17) Touched!
+2025-04-03 12:17:55,386 - INFO - Changing video to 17
+2025-04-03 12:17:55,386 - INFO - Attempting to play video index 17
+2025-04-03 12:17:55,386 - INFO - Playing video: /home/pi/Videos/video1.mp4
+2025-04-03 12:17:55,387 - DEBUG - Video playback started
+2025-04-03 12:17:55,387 - DEBUG - Video change took 0.0005195140838623047 seconds
+2025-04-03 12:17:55,387 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:55,387 - INFO - Changing video to 22
+2025-04-03 12:17:55,387 - INFO - Attempting to play video index 22
+2025-04-03 12:17:55,387 - INFO - Playing video: /home/pi/Videos/video3.mp4
+2025-04-03 12:17:55,389 - DEBUG - Video playback started
+2025-04-03 12:17:55,390 - DEBUG - Video change took 0.002489805221557617 seconds
+2025-04-03 12:17:55,490 - INFO - Sensor 1 (GPIO 17) Touched!
+2025-04-03 12:17:55,490 - INFO - Changing video to 17
+2025-04-03 12:17:55,490 - INFO - Attempting to play video index 17
+2025-04-03 12:17:55,490 - INFO - Playing video: /home/pi/Videos/video1.mp4
+2025-04-03 12:17:55,491 - DEBUG - Video playback started
+2025-04-03 12:17:55,491 - DEBUG - Video change took 0.0005228519439697266 seconds
+2025-04-03 12:17:55,491 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:55,491 - INFO - Changing video to 22
+2025-04-03 12:17:55,491 - INFO - Attempting to play video index 22
+2025-04-03 12:17:55,491 - INFO - Playing video: /home/pi/Videos/video3.mp4
+2025-04-03 12:17:55,491 - DEBUG - Video playback started
+2025-04-03 12:17:55,491 - DEBUG - Video change took 0.00035190582275390625 seconds
+2025-04-03 12:17:55,592 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:55,692 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:55,793 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:55,893 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:55,993 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:56,094 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:56,194 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:56,296 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:56,397 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:56,497 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:56,598 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:56,698 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:56,799 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:56,899 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:57,000 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:57,100 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:57,201 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:57,301 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:57,402 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:57,507 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:57,607 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:57,710 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:57,811 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:57,911 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:58,012 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:58,113 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:58,213 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:58,314 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:58,415 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:58,515 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:58,616 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:58,716 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:58,817 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:58,918 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:59,019 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:59,119 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:59,220 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:59,320 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:59,420 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:59,521 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:59,621 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:59,722 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:59,822 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:17:59,923 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:18:00,023 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:18:00,124 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:22:04,616 - INFO - Attempting to play video index 1
+2025-04-03 12:22:04,616 - INFO - Playing video: /home/pi/Videos/Salvapantallas.mp4
+2025-04-03 12:22:04,745 - DEBUG - Video playback started
+2025-04-03 12:22:04,746 - DEBUG - Video change took 0.1298995018005371 seconds
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+2025-04-03 12:23:51,861 - INFO - Attempting to play video index 1
+2025-04-03 12:23:51,861 - INFO - Playing video: /home/pi/Videos/Salvapantallas.mp4
+2025-04-03 12:23:52,049 - DEBUG - Video playback started
+2025-04-03 12:23:52,049 - DEBUG - Video change took 0.18856453895568848 seconds
+error: XDG_RUNTIME_DIR is invalid or not set in the environment.
+2025-04-03 12:23:57,522 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-03 12:23:57,522 - INFO - Changing video to 6
+2025-04-03 12:23:57,523 - INFO - Attempting to play video index 6
+2025-04-03 12:23:57,523 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-03 12:23:57,523 - DEBUG - Video playback started
+2025-04-03 12:23:57,523 - DEBUG - Video change took 0.0006608963012695312 seconds
+2025-04-03 12:23:57,624 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-03 12:23:57,725 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-03 12:23:57,826 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-03 12:23:57,927 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-03 12:24:06,345 - INFO - Sensor 1 (GPIO 17) Touched!
+2025-04-03 12:24:06,345 - INFO - Changing video to 17
+2025-04-03 12:24:06,345 - INFO - Attempting to play video index 17
+2025-04-03 12:24:06,345 - INFO - Playing video: /home/pi/Videos/video1.mp4
+2025-04-03 12:24:06,346 - DEBUG - Video playback started
+2025-04-03 12:24:06,346 - DEBUG - Video change took 0.0005714893341064453 seconds
+2025-04-03 12:24:06,446 - INFO - Sensor 1 (GPIO 17) Touched!
+2025-04-03 12:24:06,447 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:06,447 - INFO - Changing video to 24
+2025-04-03 12:24:06,447 - INFO - Attempting to play video index 24
+2025-04-03 12:24:06,447 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:06,479 - DEBUG - Video playback started
+2025-04-03 12:24:06,480 - DEBUG - Video change took 0.03277754783630371 seconds
+2025-04-03 12:24:06,581 - INFO - Sensor 1 (GPIO 17) Touched!
+2025-04-03 12:24:06,582 - INFO - Changing video to 17
+2025-04-03 12:24:06,583 - INFO - Attempting to play video index 17
+2025-04-03 12:24:06,583 - INFO - Playing video: /home/pi/Videos/video1.mp4
+2025-04-03 12:24:06,597 - DEBUG - Video playback started
+2025-04-03 12:24:06,598 - DEBUG - Video change took 0.014879941940307617 seconds
+2025-04-03 12:24:06,598 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:06,599 - INFO - Changing video to 23
+2025-04-03 12:24:06,599 - INFO - Attempting to play video index 23
+2025-04-03 12:24:06,599 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:06,602 - DEBUG - Video playback started
+2025-04-03 12:24:06,603 - DEBUG - Video change took 0.0037152767181396484 seconds
+2025-04-03 12:24:06,603 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:06,604 - INFO - Changing video to 24
+2025-04-03 12:24:06,604 - INFO - Attempting to play video index 24
+2025-04-03 12:24:06,604 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:06,604 - DEBUG - Video playback started
+2025-04-03 12:24:06,604 - DEBUG - Video change took 0.0006678104400634766 seconds
+2025-04-03 12:24:06,604 - INFO - Sensor 6 (GPIO 25) Touched!
+2025-04-03 12:24:06,605 - INFO - Changing video to 25
+2025-04-03 12:24:06,605 - INFO - Attempting to play video index 25
+2025-04-03 12:24:06,605 - INFO - Playing video: /home/pi/Videos/video6.mp4
+2025-04-03 12:24:06,605 - DEBUG - Video playback started
+2025-04-03 12:24:06,605 - DEBUG - Video change took 0.0003757476806640625 seconds
+2025-04-03 12:24:06,605 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-03 12:24:06,605 - INFO - Changing video to 6
+2025-04-03 12:24:06,605 - INFO - Attempting to play video index 6
+2025-04-03 12:24:06,605 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-03 12:24:06,605 - DEBUG - Video playback started
+2025-04-03 12:24:06,606 - DEBUG - Video change took 0.00033855438232421875 seconds
+2025-04-03 12:24:06,706 - INFO - Sensor 1 (GPIO 17) Touched!
+2025-04-03 12:24:06,707 - INFO - Changing video to 17
+2025-04-03 12:24:06,707 - INFO - Attempting to play video index 17
+2025-04-03 12:24:06,707 - INFO - Playing video: /home/pi/Videos/video1.mp4
+2025-04-03 12:24:06,708 - DEBUG - Video playback started
+2025-04-03 12:24:06,708 - DEBUG - Video change took 0.0011248588562011719 seconds
+2025-04-03 12:24:06,709 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:06,709 - INFO - Changing video to 23
+2025-04-03 12:24:06,709 - INFO - Attempting to play video index 23
+2025-04-03 12:24:06,710 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:06,712 - DEBUG - Video playback started
+2025-04-03 12:24:06,712 - DEBUG - Video change took 0.0025904178619384766 seconds
+2025-04-03 12:24:06,712 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:06,712 - INFO - Changing video to 24
+2025-04-03 12:24:06,712 - INFO - Attempting to play video index 24
+2025-04-03 12:24:06,712 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:06,713 - DEBUG - Video playback started
+2025-04-03 12:24:06,713 - DEBUG - Video change took 0.0004181861877441406 seconds
+2025-04-03 12:24:06,713 - INFO - Sensor 6 (GPIO 25) Touched!
+2025-04-03 12:24:06,713 - INFO - Changing video to 25
+2025-04-03 12:24:06,713 - INFO - Attempting to play video index 25
+2025-04-03 12:24:06,713 - INFO - Playing video: /home/pi/Videos/video6.mp4
+2025-04-03 12:24:06,713 - DEBUG - Video playback started
+2025-04-03 12:24:06,713 - DEBUG - Video change took 0.0003063678741455078 seconds
+2025-04-03 12:24:06,713 - INFO - Sensor 8 (GPIO 6) Touched!
+2025-04-03 12:24:06,713 - INFO - Changing video to 6
+2025-04-03 12:24:06,713 - INFO - Attempting to play video index 6
+2025-04-03 12:24:06,713 - INFO - Playing video: /home/pi/Videos/video8.mp4
+2025-04-03 12:24:06,714 - DEBUG - Video playback started
+2025-04-03 12:24:06,714 - DEBUG - Video change took 0.0002999305725097656 seconds
+2025-04-03 12:24:06,814 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:06,814 - INFO - Changing video to 23
+2025-04-03 12:24:06,815 - INFO - Attempting to play video index 23
+2025-04-03 12:24:06,815 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:06,815 - DEBUG - Video playback started
+2025-04-03 12:24:06,815 - DEBUG - Video change took 0.0005457401275634766 seconds
+2025-04-03 12:24:06,818 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:06,819 - INFO - Changing video to 24
+2025-04-03 12:24:06,819 - INFO - Attempting to play video index 24
+2025-04-03 12:24:06,819 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:06,819 - DEBUG - Video playback started
+2025-04-03 12:24:06,819 - DEBUG - Video change took 0.0005376338958740234 seconds
+2025-04-03 12:24:06,920 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:06,920 - INFO - Changing video to 23
+2025-04-03 12:24:06,921 - INFO - Attempting to play video index 23
+2025-04-03 12:24:06,921 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:06,923 - DEBUG - Video playback started
+2025-04-03 12:24:06,923 - DEBUG - Video change took 0.0025396347045898438 seconds
+2025-04-03 12:24:06,924 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:06,924 - INFO - Changing video to 24
+2025-04-03 12:24:06,924 - INFO - Attempting to play video index 24
+2025-04-03 12:24:06,924 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:06,926 - DEBUG - Video playback started
+2025-04-03 12:24:06,926 - DEBUG - Video change took 0.0021886825561523438 seconds
+2025-04-03 12:24:07,027 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:07,027 - INFO - Changing video to 23
+2025-04-03 12:24:07,027 - INFO - Attempting to play video index 23
+2025-04-03 12:24:07,027 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:07,027 - DEBUG - Video playback started
+2025-04-03 12:24:07,028 - DEBUG - Video change took 0.0005593299865722656 seconds
+2025-04-03 12:24:07,028 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:07,028 - INFO - Changing video to 24
+2025-04-03 12:24:07,028 - INFO - Attempting to play video index 24
+2025-04-03 12:24:07,028 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:07,031 - DEBUG - Video playback started
+2025-04-03 12:24:07,031 - DEBUG - Video change took 0.0032689571380615234 seconds
+2025-04-03 12:24:07,131 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:07,132 - INFO - Changing video to 23
+2025-04-03 12:24:07,132 - INFO - Attempting to play video index 23
+2025-04-03 12:24:07,132 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:07,132 - DEBUG - Video playback started
+2025-04-03 12:24:07,132 - DEBUG - Video change took 0.0005340576171875 seconds
+2025-04-03 12:24:07,132 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:07,132 - INFO - Changing video to 24
+2025-04-03 12:24:07,133 - INFO - Attempting to play video index 24
+2025-04-03 12:24:07,133 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:07,134 - DEBUG - Video playback started
+2025-04-03 12:24:07,135 - DEBUG - Video change took 0.002153158187866211 seconds
+2025-04-03 12:24:07,235 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:07,235 - INFO - Changing video to 23
+2025-04-03 12:24:07,235 - INFO - Attempting to play video index 23
+2025-04-03 12:24:07,235 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:07,237 - DEBUG - Video playback started
+2025-04-03 12:24:07,237 - DEBUG - Video change took 0.0015289783477783203 seconds
+2025-04-03 12:24:07,237 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:07,237 - INFO - Changing video to 24
+2025-04-03 12:24:07,237 - INFO - Attempting to play video index 24
+2025-04-03 12:24:07,237 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:07,238 - DEBUG - Video playback started
+2025-04-03 12:24:07,238 - DEBUG - Video change took 0.001039743423461914 seconds
+2025-04-03 12:24:07,339 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:07,339 - INFO - Changing video to 23
+2025-04-03 12:24:07,339 - INFO - Attempting to play video index 23
+2025-04-03 12:24:07,340 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:07,340 - DEBUG - Video playback started
+2025-04-03 12:24:07,340 - DEBUG - Video change took 0.0007956027984619141 seconds
+2025-04-03 12:24:07,340 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:07,341 - INFO - Changing video to 24
+2025-04-03 12:24:07,346 - INFO - Attempting to play video index 24
+2025-04-03 12:24:07,347 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:07,347 - DEBUG - Video playback started
+2025-04-03 12:24:07,347 - DEBUG - Video change took 0.0010764598846435547 seconds
+2025-04-03 12:24:07,448 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:07,449 - INFO - Changing video to 23
+2025-04-03 12:24:07,449 - INFO - Attempting to play video index 23
+2025-04-03 12:24:07,449 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:07,452 - DEBUG - Video playback started
+2025-04-03 12:24:07,453 - DEBUG - Video change took 0.0033261775970458984 seconds
+2025-04-03 12:24:07,453 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:07,454 - INFO - Changing video to 24
+2025-04-03 12:24:07,454 - INFO - Attempting to play video index 24
+2025-04-03 12:24:07,455 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:07,462 - DEBUG - Video playback started
+2025-04-03 12:24:07,462 - DEBUG - Video change took 0.008600234985351562 seconds
+2025-04-03 12:24:07,563 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:07,563 - INFO - Changing video to 23
+2025-04-03 12:24:07,563 - INFO - Attempting to play video index 23
+2025-04-03 12:24:07,563 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:07,564 - DEBUG - Video playback started
+2025-04-03 12:24:07,564 - DEBUG - Video change took 0.0005407333374023438 seconds
+2025-04-03 12:24:07,564 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:07,564 - INFO - Changing video to 24
+2025-04-03 12:24:07,564 - INFO - Attempting to play video index 24
+2025-04-03 12:24:07,564 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:07,568 - DEBUG - Video playback started
+2025-04-03 12:24:07,568 - DEBUG - Video change took 0.0038330554962158203 seconds
+2025-04-03 12:24:07,668 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:07,668 - INFO - Changing video to 23
+2025-04-03 12:24:07,668 - INFO - Attempting to play video index 23
+2025-04-03 12:24:07,668 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:07,669 - DEBUG - Video playback started
+2025-04-03 12:24:07,669 - DEBUG - Video change took 0.0005388259887695312 seconds
+2025-04-03 12:24:07,669 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:07,669 - INFO - Changing video to 24
+2025-04-03 12:24:07,669 - INFO - Attempting to play video index 24
+2025-04-03 12:24:07,669 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:07,671 - DEBUG - Video playback started
+2025-04-03 12:24:07,672 - DEBUG - Video change took 0.0021321773529052734 seconds
+2025-04-03 12:24:07,772 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:07,772 - INFO - Changing video to 23
+2025-04-03 12:24:07,772 - INFO - Attempting to play video index 23
+2025-04-03 12:24:07,772 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:07,773 - DEBUG - Video playback started
+2025-04-03 12:24:07,773 - DEBUG - Video change took 0.0005357265472412109 seconds
+2025-04-03 12:24:07,773 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:07,773 - INFO - Changing video to 24
+2025-04-03 12:24:07,773 - INFO - Attempting to play video index 24
+2025-04-03 12:24:07,773 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:07,773 - DEBUG - Video playback started
+2025-04-03 12:24:07,773 - DEBUG - Video change took 0.0003218650817871094 seconds
+2025-04-03 12:24:07,874 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:07,874 - INFO - Changing video to 23
+2025-04-03 12:24:07,874 - INFO - Attempting to play video index 23
+2025-04-03 12:24:07,874 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:07,874 - DEBUG - Video playback started
+2025-04-03 12:24:07,875 - DEBUG - Video change took 0.0006349086761474609 seconds
+2025-04-03 12:24:07,875 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:07,875 - INFO - Changing video to 24
+2025-04-03 12:24:07,875 - INFO - Attempting to play video index 24
+2025-04-03 12:24:07,875 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:07,879 - DEBUG - Video playback started
+2025-04-03 12:24:07,879 - DEBUG - Video change took 0.004128217697143555 seconds
+2025-04-03 12:24:07,980 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:07,981 - INFO - Changing video to 23
+2025-04-03 12:24:07,981 - INFO - Attempting to play video index 23
+2025-04-03 12:24:07,982 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:07,983 - DEBUG - Video playback started
+2025-04-03 12:24:07,983 - DEBUG - Video change took 0.002088785171508789 seconds
+2025-04-03 12:24:07,984 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:07,984 - INFO - Changing video to 24
+2025-04-03 12:24:07,984 - INFO - Attempting to play video index 24
+2025-04-03 12:24:07,984 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:07,987 - DEBUG - Video playback started
+2025-04-03 12:24:07,987 - DEBUG - Video change took 0.002513408660888672 seconds
+2025-04-03 12:24:08,087 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:08,087 - INFO - Changing video to 23
+2025-04-03 12:24:08,087 - INFO - Attempting to play video index 23
+2025-04-03 12:24:08,087 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:08,088 - DEBUG - Video playback started
+2025-04-03 12:24:08,088 - DEBUG - Video change took 0.0005543231964111328 seconds
+2025-04-03 12:24:08,088 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:08,088 - INFO - Changing video to 24
+2025-04-03 12:24:08,088 - INFO - Attempting to play video index 24
+2025-04-03 12:24:08,088 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:08,091 - DEBUG - Video playback started
+2025-04-03 12:24:08,091 - DEBUG - Video change took 0.0030286312103271484 seconds
+2025-04-03 12:24:08,192 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:08,192 - INFO - Changing video to 23
+2025-04-03 12:24:08,192 - INFO - Attempting to play video index 23
+2025-04-03 12:24:08,192 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:08,193 - DEBUG - Video playback started
+2025-04-03 12:24:08,194 - DEBUG - Video change took 0.001444101333618164 seconds
+2025-04-03 12:24:08,194 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:08,194 - INFO - Changing video to 24
+2025-04-03 12:24:08,194 - INFO - Attempting to play video index 24
+2025-04-03 12:24:08,194 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:08,196 - DEBUG - Video playback started
+2025-04-03 12:24:08,196 - DEBUG - Video change took 0.0019559860229492188 seconds
+2025-04-03 12:24:08,296 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:08,296 - INFO - Changing video to 23
+2025-04-03 12:24:08,297 - INFO - Attempting to play video index 23
+2025-04-03 12:24:08,297 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:08,297 - DEBUG - Video playback started
+2025-04-03 12:24:08,297 - DEBUG - Video change took 0.0005495548248291016 seconds
+2025-04-03 12:24:08,297 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:08,297 - INFO - Changing video to 24
+2025-04-03 12:24:08,297 - INFO - Attempting to play video index 24
+2025-04-03 12:24:08,297 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:08,299 - DEBUG - Video playback started
+2025-04-03 12:24:08,300 - DEBUG - Video change took 0.002821207046508789 seconds
+2025-04-03 12:24:08,401 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:08,401 - INFO - Changing video to 23
+2025-04-03 12:24:08,401 - INFO - Attempting to play video index 23
+2025-04-03 12:24:08,401 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:08,402 - DEBUG - Video playback started
+2025-04-03 12:24:08,402 - DEBUG - Video change took 0.000537872314453125 seconds
+2025-04-03 12:24:08,402 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:08,402 - INFO - Changing video to 24
+2025-04-03 12:24:08,402 - INFO - Attempting to play video index 24
+2025-04-03 12:24:08,402 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:08,404 - DEBUG - Video playback started
+2025-04-03 12:24:08,405 - DEBUG - Video change took 0.0026941299438476562 seconds
+2025-04-03 12:24:08,508 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:08,509 - INFO - Changing video to 23
+2025-04-03 12:24:08,509 - INFO - Attempting to play video index 23
+2025-04-03 12:24:08,509 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:08,509 - DEBUG - Video playback started
+2025-04-03 12:24:08,509 - DEBUG - Video change took 0.0005438327789306641 seconds
+2025-04-03 12:24:08,509 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:08,510 - INFO - Changing video to 24
+2025-04-03 12:24:08,510 - INFO - Attempting to play video index 24
+2025-04-03 12:24:08,510 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:08,511 - DEBUG - Video playback started
+2025-04-03 12:24:08,512 - DEBUG - Video change took 0.002053976058959961 seconds
+2025-04-03 12:24:08,612 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:08,612 - INFO - Changing video to 23
+2025-04-03 12:24:08,612 - INFO - Attempting to play video index 23
+2025-04-03 12:24:08,612 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:08,613 - DEBUG - Video playback started
+2025-04-03 12:24:08,613 - DEBUG - Video change took 0.0005774497985839844 seconds
+2025-04-03 12:24:08,613 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:08,613 - INFO - Changing video to 24
+2025-04-03 12:24:08,613 - INFO - Attempting to play video index 24
+2025-04-03 12:24:08,613 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:08,615 - DEBUG - Video playback started
+2025-04-03 12:24:08,616 - DEBUG - Video change took 0.0032546520233154297 seconds
+2025-04-03 12:24:08,717 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:08,717 - INFO - Changing video to 23
+2025-04-03 12:24:08,717 - INFO - Attempting to play video index 23
+2025-04-03 12:24:08,717 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:08,718 - DEBUG - Video playback started
+2025-04-03 12:24:08,718 - DEBUG - Video change took 0.0005450248718261719 seconds
+2025-04-03 12:24:08,718 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:08,718 - INFO - Changing video to 24
+2025-04-03 12:24:08,718 - INFO - Attempting to play video index 24
+2025-04-03 12:24:08,718 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:08,720 - DEBUG - Video playback started
+2025-04-03 12:24:08,721 - DEBUG - Video change took 0.0026710033416748047 seconds
+2025-04-03 12:24:08,821 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:08,821 - INFO - Changing video to 23
+2025-04-03 12:24:08,821 - INFO - Attempting to play video index 23
+2025-04-03 12:24:08,821 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:08,822 - DEBUG - Video playback started
+2025-04-03 12:24:08,822 - DEBUG - Video change took 0.0005381107330322266 seconds
+2025-04-03 12:24:08,822 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:08,822 - INFO - Changing video to 24
+2025-04-03 12:24:08,822 - INFO - Attempting to play video index 24
+2025-04-03 12:24:08,822 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:08,824 - DEBUG - Video playback started
+2025-04-03 12:24:08,824 - DEBUG - Video change took 0.0020673274993896484 seconds
+2025-04-03 12:24:08,925 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:08,925 - INFO - Changing video to 23
+2025-04-03 12:24:08,925 - INFO - Attempting to play video index 23
+2025-04-03 12:24:08,925 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:08,925 - DEBUG - Video playback started
+2025-04-03 12:24:08,925 - DEBUG - Video change took 0.0005357265472412109 seconds
+2025-04-03 12:24:08,926 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:08,926 - INFO - Changing video to 24
+2025-04-03 12:24:08,926 - INFO - Attempting to play video index 24
+2025-04-03 12:24:08,926 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:08,927 - DEBUG - Video playback started
+2025-04-03 12:24:08,928 - DEBUG - Video change took 0.0019931793212890625 seconds
+2025-04-03 12:24:09,029 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:09,029 - INFO - Changing video to 23
+2025-04-03 12:24:09,032 - INFO - Attempting to play video index 23
+2025-04-03 12:24:09,032 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:09,033 - DEBUG - Video playback started
+2025-04-03 12:24:09,033 - DEBUG - Video change took 0.0006058216094970703 seconds
+2025-04-03 12:24:09,033 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:09,033 - INFO - Changing video to 24
+2025-04-03 12:24:09,033 - INFO - Attempting to play video index 24
+2025-04-03 12:24:09,034 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:09,035 - DEBUG - Video playback started
+2025-04-03 12:24:09,036 - DEBUG - Video change took 0.0022020339965820312 seconds
+2025-04-03 12:24:09,136 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:09,136 - INFO - Changing video to 23
+2025-04-03 12:24:09,136 - INFO - Attempting to play video index 23
+2025-04-03 12:24:09,136 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:09,137 - DEBUG - Video playback started
+2025-04-03 12:24:09,137 - DEBUG - Video change took 0.000545501708984375 seconds
+2025-04-03 12:24:09,137 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:09,137 - INFO - Changing video to 24
+2025-04-03 12:24:09,137 - INFO - Attempting to play video index 24
+2025-04-03 12:24:09,137 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:09,140 - DEBUG - Video playback started
+2025-04-03 12:24:09,140 - DEBUG - Video change took 0.003371000289916992 seconds
+2025-04-03 12:24:09,242 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:09,242 - INFO - Changing video to 23
+2025-04-03 12:24:09,242 - INFO - Attempting to play video index 23
+2025-04-03 12:24:09,242 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:09,242 - DEBUG - Video playback started
+2025-04-03 12:24:09,243 - DEBUG - Video change took 0.0005960464477539062 seconds
+2025-04-03 12:24:09,243 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:09,243 - INFO - Changing video to 24
+2025-04-03 12:24:09,243 - INFO - Attempting to play video index 24
+2025-04-03 12:24:09,243 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:09,246 - DEBUG - Video playback started
+2025-04-03 12:24:09,246 - DEBUG - Video change took 0.0032269954681396484 seconds
+2025-04-03 12:24:09,347 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:09,347 - INFO - Changing video to 23
+2025-04-03 12:24:09,347 - INFO - Attempting to play video index 23
+2025-04-03 12:24:09,347 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:09,347 - DEBUG - Video playback started
+2025-04-03 12:24:09,347 - DEBUG - Video change took 0.0005452632904052734 seconds
+2025-04-03 12:24:09,347 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:09,348 - INFO - Changing video to 24
+2025-04-03 12:24:09,348 - INFO - Attempting to play video index 24
+2025-04-03 12:24:09,348 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:09,350 - DEBUG - Video playback started
+2025-04-03 12:24:09,350 - DEBUG - Video change took 0.0026006698608398438 seconds
+2025-04-03 12:24:09,453 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:09,453 - INFO - Changing video to 23
+2025-04-03 12:24:09,453 - INFO - Attempting to play video index 23
+2025-04-03 12:24:09,453 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:09,453 - DEBUG - Video playback started
+2025-04-03 12:24:09,454 - DEBUG - Video change took 0.000568389892578125 seconds
+2025-04-03 12:24:09,454 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:09,454 - INFO - Changing video to 24
+2025-04-03 12:24:09,454 - INFO - Attempting to play video index 24
+2025-04-03 12:24:09,454 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:09,456 - DEBUG - Video playback started
+2025-04-03 12:24:09,457 - DEBUG - Video change took 0.0030426979064941406 seconds
+2025-04-03 12:24:09,557 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:09,557 - INFO - Changing video to 23
+2025-04-03 12:24:09,558 - INFO - Attempting to play video index 23
+2025-04-03 12:24:09,558 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:09,561 - DEBUG - Video playback started
+2025-04-03 12:24:09,561 - DEBUG - Video change took 0.003728628158569336 seconds
+2025-04-03 12:24:09,561 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:09,562 - INFO - Changing video to 24
+2025-04-03 12:24:09,562 - INFO - Attempting to play video index 24
+2025-04-03 12:24:09,562 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:09,564 - DEBUG - Video playback started
+2025-04-03 12:24:09,565 - DEBUG - Video change took 0.003603219985961914 seconds
+2025-04-03 12:24:09,666 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:09,666 - INFO - Changing video to 23
+2025-04-03 12:24:09,666 - INFO - Attempting to play video index 23
+2025-04-03 12:24:09,666 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:09,667 - DEBUG - Video playback started
+2025-04-03 12:24:09,667 - DEBUG - Video change took 0.0005488395690917969 seconds
+2025-04-03 12:24:09,667 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:09,667 - INFO - Changing video to 24
+2025-04-03 12:24:09,667 - INFO - Attempting to play video index 24
+2025-04-03 12:24:09,667 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:09,669 - DEBUG - Video playback started
+2025-04-03 12:24:09,670 - DEBUG - Video change took 0.0028879642486572266 seconds
+2025-04-03 12:24:09,771 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:09,771 - INFO - Changing video to 23
+2025-04-03 12:24:09,771 - INFO - Attempting to play video index 23
+2025-04-03 12:24:09,771 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:09,772 - DEBUG - Video playback started
+2025-04-03 12:24:09,773 - DEBUG - Video change took 0.0015172958374023438 seconds
+2025-04-03 12:24:09,773 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:09,773 - INFO - Changing video to 24
+2025-04-03 12:24:09,773 - INFO - Attempting to play video index 24
+2025-04-03 12:24:09,773 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:09,774 - DEBUG - Video playback started
+2025-04-03 12:24:09,774 - DEBUG - Video change took 0.0012464523315429688 seconds
+2025-04-03 12:24:09,875 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:09,875 - INFO - Changing video to 23
+2025-04-03 12:24:09,875 - INFO - Attempting to play video index 23
+2025-04-03 12:24:09,875 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:09,876 - DEBUG - Video playback started
+2025-04-03 12:24:09,876 - DEBUG - Video change took 0.0005369186401367188 seconds
+2025-04-03 12:24:09,876 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:09,876 - INFO - Changing video to 24
+2025-04-03 12:24:09,876 - INFO - Attempting to play video index 24
+2025-04-03 12:24:09,876 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:09,878 - DEBUG - Video playback started
+2025-04-03 12:24:09,879 - DEBUG - Video change took 0.002382516860961914 seconds
+2025-04-03 12:24:09,979 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:09,979 - INFO - Changing video to 23
+2025-04-03 12:24:09,979 - INFO - Attempting to play video index 23
+2025-04-03 12:24:09,979 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:09,980 - DEBUG - Video playback started
+2025-04-03 12:24:09,980 - DEBUG - Video change took 0.0005424022674560547 seconds
+2025-04-03 12:24:09,980 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:09,980 - INFO - Changing video to 24
+2025-04-03 12:24:09,980 - INFO - Attempting to play video index 24
+2025-04-03 12:24:09,980 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:09,982 - DEBUG - Video playback started
+2025-04-03 12:24:09,983 - DEBUG - Video change took 0.0025377273559570312 seconds
+2025-04-03 12:24:10,083 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:10,083 - INFO - Changing video to 23
+2025-04-03 12:24:10,083 - INFO - Attempting to play video index 23
+2025-04-03 12:24:10,083 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:10,084 - DEBUG - Video playback started
+2025-04-03 12:24:10,085 - DEBUG - Video change took 0.0012731552124023438 seconds
+2025-04-03 12:24:10,088 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:10,088 - INFO - Changing video to 24
+2025-04-03 12:24:10,088 - INFO - Attempting to play video index 24
+2025-04-03 12:24:10,088 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:10,089 - DEBUG - Video playback started
+2025-04-03 12:24:10,089 - DEBUG - Video change took 0.0005409717559814453 seconds
+2025-04-03 12:24:10,189 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:10,190 - INFO - Changing video to 23
+2025-04-03 12:24:10,190 - INFO - Attempting to play video index 23
+2025-04-03 12:24:10,190 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:10,191 - DEBUG - Video playback started
+2025-04-03 12:24:10,192 - DEBUG - Video change took 0.0016016960144042969 seconds
+2025-04-03 12:24:10,192 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:10,193 - INFO - Changing video to 24
+2025-04-03 12:24:10,193 - INFO - Attempting to play video index 24
+2025-04-03 12:24:10,194 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:10,197 - DEBUG - Video playback started
+2025-04-03 12:24:10,197 - DEBUG - Video change took 0.0036072731018066406 seconds
+2025-04-03 12:24:10,297 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:10,297 - INFO - Changing video to 23
+2025-04-03 12:24:10,297 - INFO - Attempting to play video index 23
+2025-04-03 12:24:10,297 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:10,298 - DEBUG - Video playback started
+2025-04-03 12:24:10,298 - DEBUG - Video change took 0.0005152225494384766 seconds
+2025-04-03 12:24:10,298 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:10,298 - INFO - Changing video to 24
+2025-04-03 12:24:10,298 - INFO - Attempting to play video index 24
+2025-04-03 12:24:10,298 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:10,301 - DEBUG - Video playback started
+2025-04-03 12:24:10,303 - DEBUG - Video change took 0.004437923431396484 seconds
+2025-04-03 12:24:10,403 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:10,404 - INFO - Changing video to 23
+2025-04-03 12:24:10,404 - INFO - Attempting to play video index 23
+2025-04-03 12:24:10,404 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:10,404 - DEBUG - Video playback started
+2025-04-03 12:24:10,404 - DEBUG - Video change took 0.0005300045013427734 seconds
+2025-04-03 12:24:10,404 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:10,404 - INFO - Changing video to 24
+2025-04-03 12:24:10,404 - INFO - Attempting to play video index 24
+2025-04-03 12:24:10,404 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:10,406 - DEBUG - Video playback started
+2025-04-03 12:24:10,407 - DEBUG - Video change took 0.0023250579833984375 seconds
+2025-04-03 12:24:10,508 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:10,508 - INFO - Changing video to 23
+2025-04-03 12:24:10,508 - INFO - Attempting to play video index 23
+2025-04-03 12:24:10,508 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:10,509 - DEBUG - Video playback started
+2025-04-03 12:24:10,510 - DEBUG - Video change took 0.0016841888427734375 seconds
+2025-04-03 12:24:10,510 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:10,510 - INFO - Changing video to 24
+2025-04-03 12:24:10,510 - INFO - Attempting to play video index 24
+2025-04-03 12:24:10,510 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:10,511 - DEBUG - Video playback started
+2025-04-03 12:24:10,511 - DEBUG - Video change took 0.0012316703796386719 seconds
+2025-04-03 12:24:10,611 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:10,612 - INFO - Changing video to 23
+2025-04-03 12:24:10,612 - INFO - Attempting to play video index 23
+2025-04-03 12:24:10,612 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:10,612 - DEBUG - Video playback started
+2025-04-03 12:24:10,612 - DEBUG - Video change took 0.0005517005920410156 seconds
+2025-04-03 12:24:10,612 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:10,613 - INFO - Changing video to 24
+2025-04-03 12:24:10,613 - INFO - Attempting to play video index 24
+2025-04-03 12:24:10,616 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:10,617 - DEBUG - Video playback started
+2025-04-03 12:24:10,617 - DEBUG - Video change took 0.00406336784362793 seconds
+2025-04-03 12:24:10,717 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:10,717 - INFO - Changing video to 23
+2025-04-03 12:24:10,718 - INFO - Attempting to play video index 23
+2025-04-03 12:24:10,718 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:10,718 - DEBUG - Video playback started
+2025-04-03 12:24:10,719 - DEBUG - Video change took 0.0009603500366210938 seconds
+2025-04-03 12:24:10,719 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:10,719 - INFO - Changing video to 24
+2025-04-03 12:24:10,720 - INFO - Attempting to play video index 24
+2025-04-03 12:24:10,720 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:10,724 - DEBUG - Video playback started
+2025-04-03 12:24:10,725 - DEBUG - Video change took 0.005009889602661133 seconds
+2025-04-03 12:24:10,825 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:10,825 - INFO - Changing video to 23
+2025-04-03 12:24:10,825 - INFO - Attempting to play video index 23
+2025-04-03 12:24:10,825 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:10,827 - DEBUG - Video playback started
+2025-04-03 12:24:10,827 - DEBUG - Video change took 0.0016531944274902344 seconds
+2025-04-03 12:24:10,827 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:10,827 - INFO - Changing video to 24
+2025-04-03 12:24:10,827 - INFO - Attempting to play video index 24
+2025-04-03 12:24:10,827 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:10,828 - DEBUG - Video playback started
+2025-04-03 12:24:10,828 - DEBUG - Video change took 0.0011138916015625 seconds
+2025-04-03 12:24:10,929 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:10,929 - INFO - Changing video to 23
+2025-04-03 12:24:10,929 - INFO - Attempting to play video index 23
+2025-04-03 12:24:10,929 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:10,929 - DEBUG - Video playback started
+2025-04-03 12:24:10,929 - DEBUG - Video change took 0.0005435943603515625 seconds
+2025-04-03 12:24:10,930 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:10,930 - INFO - Changing video to 24
+2025-04-03 12:24:10,930 - INFO - Attempting to play video index 24
+2025-04-03 12:24:10,930 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:10,932 - DEBUG - Video playback started
+2025-04-03 12:24:10,932 - DEBUG - Video change took 0.002386331558227539 seconds
+2025-04-03 12:24:11,032 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:11,033 - INFO - Changing video to 23
+2025-04-03 12:24:11,033 - INFO - Attempting to play video index 23
+2025-04-03 12:24:11,033 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:11,033 - DEBUG - Video playback started
+2025-04-03 12:24:11,033 - DEBUG - Video change took 0.0005209445953369141 seconds
+2025-04-03 12:24:11,033 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:11,033 - INFO - Changing video to 24
+2025-04-03 12:24:11,035 - INFO - Attempting to play video index 24
+2025-04-03 12:24:11,035 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:11,036 - DEBUG - Video playback started
+2025-04-03 12:24:11,037 - DEBUG - Video change took 0.002421140670776367 seconds
+2025-04-03 12:24:11,137 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:11,138 - INFO - Changing video to 23
+2025-04-03 12:24:11,138 - INFO - Attempting to play video index 23
+2025-04-03 12:24:11,138 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:11,138 - DEBUG - Video playback started
+2025-04-03 12:24:11,138 - DEBUG - Video change took 0.0006103515625 seconds
+2025-04-03 12:24:11,139 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:11,139 - INFO - Changing video to 24
+2025-04-03 12:24:11,139 - INFO - Attempting to play video index 24
+2025-04-03 12:24:11,139 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:11,141 - DEBUG - Video playback started
+2025-04-03 12:24:11,144 - DEBUG - Video change took 0.0057642459869384766 seconds
+2025-04-03 12:24:11,245 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:11,245 - INFO - Changing video to 23
+2025-04-03 12:24:11,245 - INFO - Attempting to play video index 23
+2025-04-03 12:24:11,245 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:11,246 - DEBUG - Video playback started
+2025-04-03 12:24:11,246 - DEBUG - Video change took 0.0005359649658203125 seconds
+2025-04-03 12:24:11,246 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:11,246 - INFO - Changing video to 24
+2025-04-03 12:24:11,246 - INFO - Attempting to play video index 24
+2025-04-03 12:24:11,246 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:11,249 - DEBUG - Video playback started
+2025-04-03 12:24:11,250 - DEBUG - Video change took 0.003471851348876953 seconds
+2025-04-03 12:24:11,350 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:11,350 - INFO - Changing video to 23
+2025-04-03 12:24:11,354 - INFO - Attempting to play video index 23
+2025-04-03 12:24:11,354 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:11,354 - DEBUG - Video playback started
+2025-04-03 12:24:11,355 - DEBUG - Video change took 0.0006480216979980469 seconds
+2025-04-03 12:24:11,355 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:11,355 - INFO - Changing video to 24
+2025-04-03 12:24:11,355 - INFO - Attempting to play video index 24
+2025-04-03 12:24:11,355 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:11,357 - DEBUG - Video playback started
+2025-04-03 12:24:11,357 - DEBUG - Video change took 0.0023488998413085938 seconds
+2025-04-03 12:24:11,458 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:11,458 - INFO - Changing video to 23
+2025-04-03 12:24:11,458 - INFO - Attempting to play video index 23
+2025-04-03 12:24:11,458 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:11,459 - DEBUG - Video playback started
+2025-04-03 12:24:11,459 - DEBUG - Video change took 0.0005505084991455078 seconds
+2025-04-03 12:24:11,459 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:11,459 - INFO - Changing video to 24
+2025-04-03 12:24:11,459 - INFO - Attempting to play video index 24
+2025-04-03 12:24:11,459 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:11,463 - DEBUG - Video playback started
+2025-04-03 12:24:11,463 - DEBUG - Video change took 0.0035982131958007812 seconds
+2025-04-03 12:24:11,563 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:11,563 - INFO - Changing video to 23
+2025-04-03 12:24:11,563 - INFO - Attempting to play video index 23
+2025-04-03 12:24:11,564 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:11,564 - DEBUG - Video playback started
+2025-04-03 12:24:11,564 - DEBUG - Video change took 0.0005781650543212891 seconds
+2025-04-03 12:24:11,564 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:11,564 - INFO - Changing video to 24
+2025-04-03 12:24:11,564 - INFO - Attempting to play video index 24
+2025-04-03 12:24:11,564 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:11,566 - DEBUG - Video playback started
+2025-04-03 12:24:11,566 - DEBUG - Video change took 0.0020089149475097656 seconds
+2025-04-03 12:24:11,667 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:11,667 - INFO - Changing video to 23
+2025-04-03 12:24:11,667 - INFO - Attempting to play video index 23
+2025-04-03 12:24:11,667 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:11,667 - DEBUG - Video playback started
+2025-04-03 12:24:11,668 - DEBUG - Video change took 0.0005309581756591797 seconds
+2025-04-03 12:24:11,668 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:11,668 - INFO - Changing video to 24
+2025-04-03 12:24:11,668 - INFO - Attempting to play video index 24
+2025-04-03 12:24:11,668 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:11,670 - DEBUG - Video playback started
+2025-04-03 12:24:11,671 - DEBUG - Video change took 0.002724885940551758 seconds
+2025-04-03 12:24:11,771 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:11,774 - INFO - Changing video to 23
+2025-04-03 12:24:11,774 - INFO - Attempting to play video index 23
+2025-04-03 12:24:11,774 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:11,775 - DEBUG - Video playback started
+2025-04-03 12:24:11,775 - DEBUG - Video change took 0.0005395412445068359 seconds
+2025-04-03 12:24:11,775 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:11,775 - INFO - Changing video to 24
+2025-04-03 12:24:11,775 - INFO - Attempting to play video index 24
+2025-04-03 12:24:11,775 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:11,777 - DEBUG - Video playback started
+2025-04-03 12:24:11,777 - DEBUG - Video change took 0.0020787715911865234 seconds
+2025-04-03 12:24:11,878 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:11,878 - INFO - Changing video to 23
+2025-04-03 12:24:11,878 - INFO - Attempting to play video index 23
+2025-04-03 12:24:11,878 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:11,879 - DEBUG - Video playback started
+2025-04-03 12:24:11,879 - DEBUG - Video change took 0.0005779266357421875 seconds
+2025-04-03 12:24:11,879 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:11,879 - INFO - Changing video to 24
+2025-04-03 12:24:11,879 - INFO - Attempting to play video index 24
+2025-04-03 12:24:11,879 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:11,881 - DEBUG - Video playback started
+2025-04-03 12:24:11,882 - DEBUG - Video change took 0.0029420852661132812 seconds
+2025-04-03 12:24:11,983 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:11,983 - INFO - Changing video to 23
+2025-04-03 12:24:11,983 - INFO - Attempting to play video index 23
+2025-04-03 12:24:11,983 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:11,983 - DEBUG - Video playback started
+2025-04-03 12:24:11,984 - DEBUG - Video change took 0.0005910396575927734 seconds
+2025-04-03 12:24:11,984 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:11,984 - INFO - Changing video to 24
+2025-04-03 12:24:11,984 - INFO - Attempting to play video index 24
+2025-04-03 12:24:11,984 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:11,996 - DEBUG - Video playback started
+2025-04-03 12:24:11,997 - DEBUG - Video change took 0.013181924819946289 seconds
+2025-04-03 12:24:12,098 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:12,098 - INFO - Changing video to 23
+2025-04-03 12:24:12,098 - INFO - Attempting to play video index 23
+2025-04-03 12:24:12,098 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:12,099 - DEBUG - Video playback started
+2025-04-03 12:24:12,099 - DEBUG - Video change took 0.0005481243133544922 seconds
+2025-04-03 12:24:12,099 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:12,099 - INFO - Changing video to 24
+2025-04-03 12:24:12,099 - INFO - Attempting to play video index 24
+2025-04-03 12:24:12,099 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:12,101 - DEBUG - Video playback started
+2025-04-03 12:24:12,102 - DEBUG - Video change took 0.0030150413513183594 seconds
+2025-04-03 12:24:12,202 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:12,203 - INFO - Changing video to 23
+2025-04-03 12:24:12,203 - INFO - Attempting to play video index 23
+2025-04-03 12:24:12,203 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:12,203 - DEBUG - Video playback started
+2025-04-03 12:24:12,203 - DEBUG - Video change took 0.0005435943603515625 seconds
+2025-04-03 12:24:12,203 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:12,203 - INFO - Changing video to 24
+2025-04-03 12:24:12,204 - INFO - Attempting to play video index 24
+2025-04-03 12:24:12,204 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:12,205 - DEBUG - Video playback started
+2025-04-03 12:24:12,206 - DEBUG - Video change took 0.0021178722381591797 seconds
+2025-04-03 12:24:12,306 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:12,306 - INFO - Changing video to 23
+2025-04-03 12:24:12,306 - INFO - Attempting to play video index 23
+2025-04-03 12:24:12,310 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:12,310 - DEBUG - Video playback started
+2025-04-03 12:24:12,310 - DEBUG - Video change took 0.0036666393280029297 seconds
+2025-04-03 12:24:12,310 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:12,310 - INFO - Changing video to 24
+2025-04-03 12:24:12,310 - INFO - Attempting to play video index 24
+2025-04-03 12:24:12,310 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:12,313 - DEBUG - Video playback started
+2025-04-03 12:24:12,313 - DEBUG - Video change took 0.0025680065155029297 seconds
+2025-04-03 12:24:12,413 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:12,413 - INFO - Changing video to 23
+2025-04-03 12:24:12,414 - INFO - Attempting to play video index 23
+2025-04-03 12:24:12,414 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:12,414 - DEBUG - Video playback started
+2025-04-03 12:24:12,414 - DEBUG - Video change took 0.0005223751068115234 seconds
+2025-04-03 12:24:12,414 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:12,414 - INFO - Changing video to 24
+2025-04-03 12:24:12,414 - INFO - Attempting to play video index 24
+2025-04-03 12:24:12,414 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:12,416 - DEBUG - Video playback started
+2025-04-03 12:24:12,417 - DEBUG - Video change took 0.0022330284118652344 seconds
+2025-04-03 12:24:12,517 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:12,517 - INFO - Changing video to 23
+2025-04-03 12:24:12,517 - INFO - Attempting to play video index 23
+2025-04-03 12:24:12,517 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:12,518 - DEBUG - Video playback started
+2025-04-03 12:24:12,518 - DEBUG - Video change took 0.0005421638488769531 seconds
+2025-04-03 12:24:12,518 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:12,518 - INFO - Changing video to 24
+2025-04-03 12:24:12,518 - INFO - Attempting to play video index 24
+2025-04-03 12:24:12,518 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:12,521 - DEBUG - Video playback started
+2025-04-03 12:24:12,521 - DEBUG - Video change took 0.002882242202758789 seconds
+2025-04-03 12:24:12,621 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:12,622 - INFO - Changing video to 23
+2025-04-03 12:24:12,622 - INFO - Attempting to play video index 23
+2025-04-03 12:24:12,622 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:12,622 - DEBUG - Video playback started
+2025-04-03 12:24:12,622 - DEBUG - Video change took 0.0006270408630371094 seconds
+2025-04-03 12:24:12,622 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:12,622 - INFO - Changing video to 24
+2025-04-03 12:24:12,623 - INFO - Attempting to play video index 24
+2025-04-03 12:24:12,623 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:12,625 - DEBUG - Video playback started
+2025-04-03 12:24:12,626 - DEBUG - Video change took 0.003075122833251953 seconds
+2025-04-03 12:24:12,726 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:12,726 - INFO - Changing video to 23
+2025-04-03 12:24:12,726 - INFO - Attempting to play video index 23
+2025-04-03 12:24:12,727 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:12,727 - DEBUG - Video playback started
+2025-04-03 12:24:12,727 - DEBUG - Video change took 0.0005426406860351562 seconds
+2025-04-03 12:24:12,727 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:12,727 - INFO - Changing video to 24
+2025-04-03 12:24:12,727 - INFO - Attempting to play video index 24
+2025-04-03 12:24:12,727 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:12,731 - DEBUG - Video playback started
+2025-04-03 12:24:12,731 - DEBUG - Video change took 0.003736734390258789 seconds
+2025-04-03 12:24:12,831 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:12,832 - INFO - Changing video to 23
+2025-04-03 12:24:12,832 - INFO - Attempting to play video index 23
+2025-04-03 12:24:12,832 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:12,832 - DEBUG - Video playback started
+2025-04-03 12:24:12,836 - DEBUG - Video change took 0.003803730010986328 seconds
+2025-04-03 12:24:12,836 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:12,836 - INFO - Changing video to 24
+2025-04-03 12:24:12,836 - INFO - Attempting to play video index 24
+2025-04-03 12:24:12,836 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:12,836 - DEBUG - Video playback started
+2025-04-03 12:24:12,837 - DEBUG - Video change took 0.0005388259887695312 seconds
+2025-04-03 12:24:12,937 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:12,937 - INFO - Changing video to 23
+2025-04-03 12:24:12,937 - INFO - Attempting to play video index 23
+2025-04-03 12:24:12,937 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:12,938 - DEBUG - Video playback started
+2025-04-03 12:24:12,939 - DEBUG - Video change took 0.0010488033294677734 seconds
+2025-04-03 12:24:12,939 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:12,939 - INFO - Changing video to 24
+2025-04-03 12:24:12,939 - INFO - Attempting to play video index 24
+2025-04-03 12:24:12,939 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:12,944 - DEBUG - Video playback started
+2025-04-03 12:24:12,945 - DEBUG - Video change took 0.005841255187988281 seconds
+2025-04-03 12:24:13,045 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:13,046 - INFO - Changing video to 23
+2025-04-03 12:24:13,046 - INFO - Attempting to play video index 23
+2025-04-03 12:24:13,046 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:13,046 - DEBUG - Video playback started
+2025-04-03 12:24:13,046 - DEBUG - Video change took 0.0006060600280761719 seconds
+2025-04-03 12:24:13,046 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:13,047 - INFO - Changing video to 24
+2025-04-03 12:24:13,047 - INFO - Attempting to play video index 24
+2025-04-03 12:24:13,047 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:13,049 - DEBUG - Video playback started
+2025-04-03 12:24:13,049 - DEBUG - Video change took 0.0024881362915039062 seconds
+2025-04-03 12:24:13,150 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:13,150 - INFO - Changing video to 23
+2025-04-03 12:24:13,150 - INFO - Attempting to play video index 23
+2025-04-03 12:24:13,150 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:13,151 - DEBUG - Video playback started
+2025-04-03 12:24:13,151 - DEBUG - Video change took 0.0007908344268798828 seconds
+2025-04-03 12:24:13,151 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:13,151 - INFO - Changing video to 24
+2025-04-03 12:24:13,151 - INFO - Attempting to play video index 24
+2025-04-03 12:24:13,151 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:13,153 - DEBUG - Video playback started
+2025-04-03 12:24:13,154 - DEBUG - Video change took 0.0030069351196289062 seconds
+2025-04-03 12:24:13,254 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:13,255 - INFO - Changing video to 23
+2025-04-03 12:24:13,255 - INFO - Attempting to play video index 23
+2025-04-03 12:24:13,255 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:13,255 - DEBUG - Video playback started
+2025-04-03 12:24:13,255 - DEBUG - Video change took 0.0005371570587158203 seconds
+2025-04-03 12:24:13,255 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:13,255 - INFO - Changing video to 24
+2025-04-03 12:24:13,255 - INFO - Attempting to play video index 24
+2025-04-03 12:24:13,256 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:13,257 - DEBUG - Video playback started
+2025-04-03 12:24:13,258 - DEBUG - Video change took 0.0021195411682128906 seconds
+2025-04-03 12:24:13,358 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:13,358 - INFO - Changing video to 23
+2025-04-03 12:24:13,358 - INFO - Attempting to play video index 23
+2025-04-03 12:24:13,358 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:13,359 - DEBUG - Video playback started
+2025-04-03 12:24:13,359 - DEBUG - Video change took 0.0005500316619873047 seconds
+2025-04-03 12:24:13,359 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:13,362 - INFO - Changing video to 24
+2025-04-03 12:24:13,363 - INFO - Attempting to play video index 24
+2025-04-03 12:24:13,363 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:13,363 - DEBUG - Video playback started
+2025-04-03 12:24:13,363 - DEBUG - Video change took 0.0005669593811035156 seconds
+2025-04-03 12:24:13,465 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:13,465 - INFO - Changing video to 23
+2025-04-03 12:24:13,465 - INFO - Attempting to play video index 23
+2025-04-03 12:24:13,465 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:13,466 - DEBUG - Video playback started
+2025-04-03 12:24:13,466 - DEBUG - Video change took 0.00091552734375 seconds
+2025-04-03 12:24:13,467 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:13,467 - INFO - Changing video to 24
+2025-04-03 12:24:13,467 - INFO - Attempting to play video index 24
+2025-04-03 12:24:13,467 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:13,469 - DEBUG - Video playback started
+2025-04-03 12:24:13,469 - DEBUG - Video change took 0.002089977264404297 seconds
+2025-04-03 12:24:13,570 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:13,570 - INFO - Changing video to 23
+2025-04-03 12:24:13,570 - INFO - Attempting to play video index 23
+2025-04-03 12:24:13,571 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:13,572 - DEBUG - Video playback started
+2025-04-03 12:24:13,572 - DEBUG - Video change took 0.0016143321990966797 seconds
+2025-04-03 12:24:13,572 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:13,572 - INFO - Changing video to 24
+2025-04-03 12:24:13,572 - INFO - Attempting to play video index 24
+2025-04-03 12:24:13,573 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:13,573 - DEBUG - Video playback started
+2025-04-03 12:24:13,573 - DEBUG - Video change took 0.0008599758148193359 seconds
+2025-04-03 12:24:13,674 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:13,674 - INFO - Changing video to 23
+2025-04-03 12:24:13,674 - INFO - Attempting to play video index 23
+2025-04-03 12:24:13,674 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:13,674 - DEBUG - Video playback started
+2025-04-03 12:24:13,675 - DEBUG - Video change took 0.0005941390991210938 seconds
+2025-04-03 12:24:13,675 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:13,675 - INFO - Changing video to 24
+2025-04-03 12:24:13,675 - INFO - Attempting to play video index 24
+2025-04-03 12:24:13,675 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:13,677 - DEBUG - Video playback started
+2025-04-03 12:24:13,677 - DEBUG - Video change took 0.0020363330841064453 seconds
+2025-04-03 12:24:13,777 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:13,778 - INFO - Changing video to 23
+2025-04-03 12:24:13,778 - INFO - Attempting to play video index 23
+2025-04-03 12:24:13,778 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:13,778 - DEBUG - Video playback started
+2025-04-03 12:24:13,778 - DEBUG - Video change took 0.0005192756652832031 seconds
+2025-04-03 12:24:13,778 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:13,778 - INFO - Changing video to 24
+2025-04-03 12:24:13,778 - INFO - Attempting to play video index 24
+2025-04-03 12:24:13,778 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:13,780 - DEBUG - Video playback started
+2025-04-03 12:24:13,781 - DEBUG - Video change took 0.0022428035736083984 seconds
+2025-04-03 12:24:13,881 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:13,881 - INFO - Changing video to 23
+2025-04-03 12:24:13,881 - INFO - Attempting to play video index 23
+2025-04-03 12:24:13,881 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:13,882 - DEBUG - Video playback started
+2025-04-03 12:24:13,882 - DEBUG - Video change took 0.0005450248718261719 seconds
+2025-04-03 12:24:13,882 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:13,882 - INFO - Changing video to 24
+2025-04-03 12:24:13,882 - INFO - Attempting to play video index 24
+2025-04-03 12:24:13,886 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:13,886 - DEBUG - Video playback started
+2025-04-03 12:24:13,886 - DEBUG - Video change took 0.004072666168212891 seconds
+2025-04-03 12:24:13,989 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:13,989 - INFO - Changing video to 23
+2025-04-03 12:24:13,990 - INFO - Attempting to play video index 23
+2025-04-03 12:24:13,990 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:13,990 - DEBUG - Video playback started
+2025-04-03 12:24:13,990 - DEBUG - Video change took 0.000560760498046875 seconds
+2025-04-03 12:24:13,990 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:13,990 - INFO - Changing video to 24
+2025-04-03 12:24:13,990 - INFO - Attempting to play video index 24
+2025-04-03 12:24:13,990 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:13,993 - DEBUG - Video playback started
+2025-04-03 12:24:13,993 - DEBUG - Video change took 0.0029566287994384766 seconds
+2025-04-03 12:24:14,094 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:14,094 - INFO - Changing video to 23
+2025-04-03 12:24:14,094 - INFO - Attempting to play video index 23
+2025-04-03 12:24:14,094 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:14,094 - DEBUG - Video playback started
+2025-04-03 12:24:14,095 - DEBUG - Video change took 0.0005791187286376953 seconds
+2025-04-03 12:24:14,095 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:14,095 - INFO - Changing video to 24
+2025-04-03 12:24:14,095 - INFO - Attempting to play video index 24
+2025-04-03 12:24:14,095 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:14,095 - DEBUG - Video playback started
+2025-04-03 12:24:14,095 - DEBUG - Video change took 0.00033164024353027344 seconds
+2025-04-03 12:24:14,195 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:14,196 - INFO - Changing video to 23
+2025-04-03 12:24:14,196 - INFO - Attempting to play video index 23
+2025-04-03 12:24:14,196 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:14,196 - DEBUG - Video playback started
+2025-04-03 12:24:14,196 - DEBUG - Video change took 0.0005512237548828125 seconds
+2025-04-03 12:24:14,196 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:14,197 - INFO - Changing video to 24
+2025-04-03 12:24:14,197 - INFO - Attempting to play video index 24
+2025-04-03 12:24:14,197 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:14,199 - DEBUG - Video playback started
+2025-04-03 12:24:14,199 - DEBUG - Video change took 0.0026340484619140625 seconds
+2025-04-03 12:24:14,300 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:14,300 - INFO - Changing video to 23
+2025-04-03 12:24:14,300 - INFO - Attempting to play video index 23
+2025-04-03 12:24:14,300 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:14,300 - DEBUG - Video playback started
+2025-04-03 12:24:14,301 - DEBUG - Video change took 0.0005459785461425781 seconds
+2025-04-03 12:24:14,301 - INFO - Sensor 4 (GPIO 24) Touched!
+2025-04-03 12:24:14,301 - INFO - Changing video to 24
+2025-04-03 12:24:14,301 - INFO - Attempting to play video index 24
+2025-04-03 12:24:14,301 - INFO - Playing video: /home/pi/Videos/video5.mp4
+2025-04-03 12:24:14,303 - DEBUG - Video playback started
+2025-04-03 12:24:14,304 - DEBUG - Video change took 0.002866029739379883 seconds
+2025-04-03 12:24:14,404 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:24:14,404 - INFO - Changing video to 23
+2025-04-03 12:24:14,404 - INFO - Attempting to play video index 23
+2025-04-03 12:24:14,404 - INFO - Playing video: /home/pi/Videos/video4.mp4
+2025-04-03 12:24:14,405 - DEBUG - Video playback started
+2025-04-03 12:24:14,405 - DEBUG - Video change took 0.0005593299865722656 seconds
+2025-04-03 12:24:14,506 - INFO - Sensor 3 (GPIO 23) Touched!
+2025-04-03 12:27:17,402 - INFO - Sensor 1 (GPIO 17) Touched!
+2025-04-03 12:27:17,403 - INFO - Changing video to 17
+2025-04-03 12:27:17,403 - INFO - Attempting to play video index 17
+2025-04-03 12:27:17,403 - INFO - Playing video: /home/pi/Videos/video1.mp4
+2025-04-03 12:27:17,403 - DEBUG - Video playback started
+2025-04-03 12:27:17,404 - DEBUG - Video change took 0.0009829998016357422 seconds
+2025-04-03 12:27:17,404 - INFO - Sensor 2 (GPIO 27) Touched!
+2025-04-03 12:27:17,404 - INFO - Changing video to 27
+2025-04-03 12:27:17,405 - INFO - Attempting to play video index 27
+2025-04-03 12:27:17,405 - INFO - Playing video: /home/pi/Videos/video2.mp4
+2025-04-03 12:27:17,456 - DEBUG - Video playback started
+2025-04-03 12:27:17,457 - DEBUG - Video change took 0.0520322322845459 seconds
+2025-04-03 12:27:17,457 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:27:17,457 - INFO - Changing video to 22
+2025-04-03 12:27:17,457 - INFO - Attempting to play video index 22
+2025-04-03 12:27:17,457 - INFO - Playing video: /home/pi/Videos/video3.mp4
+2025-04-03 12:27:17,458 - DEBUG - Video playback started
+2025-04-03 12:27:17,458 - DEBUG - Video change took 0.0015344619750976562 seconds
+2025-04-03 12:27:17,562 - INFO - Sensor 1 (GPIO 17) Touched!
+2025-04-03 12:27:17,562 - INFO - Changing video to 17
+2025-04-03 12:27:17,562 - INFO - Attempting to play video index 17
+2025-04-03 12:27:17,563 - INFO - Playing video: /home/pi/Videos/video1.mp4
+2025-04-03 12:27:17,563 - DEBUG - Video playback started
+2025-04-03 12:27:17,563 - DEBUG - Video change took 0.0005435943603515625 seconds
+2025-04-03 12:27:17,563 - INFO - Sensor 2 (GPIO 27) Touched!
+2025-04-03 12:27:17,563 - INFO - Changing video to 27
+2025-04-03 12:27:17,563 - INFO - Attempting to play video index 27
+2025-04-03 12:27:17,563 - INFO - Playing video: /home/pi/Videos/video2.mp4
+2025-04-03 12:27:17,565 - DEBUG - Video playback started
+2025-04-03 12:27:17,566 - DEBUG - Video change took 0.0022125244140625 seconds
+2025-04-03 12:27:17,566 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:27:17,566 - INFO - Changing video to 22
+2025-04-03 12:27:17,566 - INFO - Attempting to play video index 22
+2025-04-03 12:27:17,566 - INFO - Playing video: /home/pi/Videos/video3.mp4
+2025-04-03 12:27:17,566 - DEBUG - Video playback started
+2025-04-03 12:27:17,566 - DEBUG - Video change took 0.0005152225494384766 seconds
+2025-04-03 12:27:17,667 - INFO - Sensor 1 (GPIO 17) Touched!
+2025-04-03 12:27:17,667 - INFO - Changing video to 17
+2025-04-03 12:27:17,667 - INFO - Attempting to play video index 17
+2025-04-03 12:27:17,667 - INFO - Playing video: /home/pi/Videos/video1.mp4
+2025-04-03 12:27:17,668 - DEBUG - Video playback started
+2025-04-03 12:27:17,668 - DEBUG - Video change took 0.0005397796630859375 seconds
+2025-04-03 12:27:17,668 - INFO - Sensor 2 (GPIO 27) Touched!
+2025-04-03 12:27:17,668 - INFO - Changing video to 27
+2025-04-03 12:27:17,668 - INFO - Attempting to play video index 27
+2025-04-03 12:27:17,668 - INFO - Playing video: /home/pi/Videos/video2.mp4
+2025-04-03 12:27:17,670 - DEBUG - Video playback started
+2025-04-03 12:27:17,670 - DEBUG - Video change took 0.0021486282348632812 seconds
+2025-04-03 12:27:17,975 - INFO - Sensor 1 (GPIO 17) Touched!
+2025-04-03 12:27:17,975 - INFO - Changing video to 17
+2025-04-03 12:27:17,975 - INFO - Attempting to play video index 17
+2025-04-03 12:27:17,975 - INFO - Playing video: /home/pi/Videos/video1.mp4
+2025-04-03 12:27:17,976 - DEBUG - Video playback started
+2025-04-03 12:27:17,976 - DEBUG - Video change took 0.0005142688751220703 seconds
+2025-04-03 12:27:18,076 - INFO - Sensor 1 (GPIO 17) Touched!
+2025-04-03 12:27:18,077 - INFO - Sensor 5 (GPIO 22) Touched!
+2025-04-03 12:27:18,077 - INFO - Changing video to 22
+2025-04-03 12:27:18,078 - INFO - Attempting to play video index 22
+2025-04-03 12:27:18,078 - INFO - Playing video: /home/pi/Videos/video3.mp4
+2025-04-03 12:27:18,079 - DEBUG - Video playback started
+2025-04-03 12:27:18,079 - DEBUG - Video change took 0.0016579627990722656 seconds
+2025-04-03 12:27:22,435 - INFO - ESC key pressed
+2025-04-03 12:27:22,436 - INFO - Starting cleanup...
+2025-04-03 12:27:22,536 - ERROR - Error during player termination: terminate() should not be called from event thread (e.g. from a callback function). If you want to terminate mpv from here, please call quit() instead, then sync the main thread against the event thread using e.g. wait_for_shutdown(), then terminate() from the main thread. This call has been transformed into a call to quit().

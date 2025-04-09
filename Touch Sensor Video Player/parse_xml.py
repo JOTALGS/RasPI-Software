@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 
 # XML file path
-xml_file = '/home/pi/Desktop/Scripts/Touch Sensor Video Player/settings/videos.xml'
+xml_file = '/home/pi/Desktop/Scripts/TouchSensorVideoPlayer/settings/videos.xml'
 
 def parse_xml():
     tree = ET.parse(xml_file)

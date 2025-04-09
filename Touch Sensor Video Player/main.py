@@ -13,7 +13,7 @@ logging.basicConfig(
 
 def main():
 
-    IMAGE_PATH = '/home/pi/Pictures/wp3597502-black-screen-wallpapers.jpg'
+    IMAGE_PATH = '/home/pi/Pictures/abstract-textured-w.jpg'
     open_image_fullscreen_non_blocking(IMAGE_PATH)
     
     logging.info("Starting video player application")

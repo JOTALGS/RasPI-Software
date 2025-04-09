@@ -2,7 +2,13 @@
 <videos>
     <sensor pin="17">/home/pi/Videos/video1.mp4</sensor>
     <sensor pin="27">/home/pi/Videos/video2.mp4</sensor>
-    <!--<sensor pin="22">/home/pi/videos/video3.mp4</sensor> -->
-    <!-- <sensor pin="23">/home/pi/videos/video4.mp4</sensor> -->
-    <screensaver>/home/pi/Videos/screensaver.mp4</screensaver>
+    <sensor pin="22">/home/pi/Videos/video3.mp4</sensor>
+    <sensor pin="23">/home/pi/Videos/video4.mp4</sensor>
+    <sensor pin="24">/home/pi/Videos/video5.mp4</sensor>
+    <sensor pin="25">/home/pi/Videos/video6.mp4</sensor>
+    <sensor pin="5">/home/pi/Videos/video7.mp4</sensor>
+    <sensor pin="6">/home/pi/Videos/video8.mp4</sensor>
+    <sensor pin="16">/home/pi/Videos/video9.mp4</sensor>
+    <sensor pin="26">/home/pi/Videos/video10.mp4</sensor>
+    <screensaver>/home/pi/Videos/Salvapantallas.mp4</screensaver>
 </videos>

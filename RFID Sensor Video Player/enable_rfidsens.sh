@@ -1,5 +1,9 @@
 #!/bin/bash
 
+sudo apt install python3-mpv
+sudo apt install feh
+sudo apt install unclutter
+
 SERVICE_FILE="/etc/systemd/system/rfidsens.service"
 
 if [ ! -f "$SERVICE_FILE" ]; then

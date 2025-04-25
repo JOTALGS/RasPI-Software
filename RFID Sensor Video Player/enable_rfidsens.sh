@@ -33,6 +33,9 @@ StandardError=append:/home/pi/Documents/RasPI-Software-main/RFIDSensorVideoPlaye
 
 # Environment setup
 Environment=DISPLAY=:0
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+Environment=PULSE_SERVER=unix:/run/user/1000/pulse/native
+
 
 # Restart policy
 #Restart=on-failure
